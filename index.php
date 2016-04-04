@@ -1,6 +1,8 @@
 <?php
 
-echo "nihao!"
+echo "nihao!";
+echo "<br>";
+echo "welcome!";
 
 
 ?>
