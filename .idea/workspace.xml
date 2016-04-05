@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f424ec2b-7f43-404c-aa3e-aca5f561f700" name="Default" comment="2014-04-05&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/checklogin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/minimal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/pure-min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+    <list default="true" id="f424ec2b-7f43-404c-aa3e-aca5f561f700" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/favicon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,7 +73,7 @@
       <file leaf-file-name="register.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
+            <state relative-caret-position="143">
               <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
               <folding>
                 <marker date="1459844360629" expanded="true" signature="1290:1309" placeholder="Select * fro... users" />
@@ -327,7 +319,7 @@
       <workItem from="1459763080978" duration="2196000" />
       <workItem from="1459765362548" duration="24000" />
       <workItem from="1459841230168" duration="3458000" />
-      <workItem from="1459844836750" duration="224000" />
+      <workItem from="1459844836750" duration="1193000" />
     </task>
     <task id="LOCAL-00001" summary="2014-04-04&#10;">
       <created>1459763660044</created>
@@ -350,22 +342,29 @@
       <option name="project" value="LOCAL" />
       <updated>1459764812024</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2014-04-05&#10;">
+      <created>1459845068010</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1459845068010</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5902000" />
+    <option name="totallyTimeSpent" value="6871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="73" y="31" width="1186" height="707" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19736843" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991454" sideWeight="0.49649122" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991454" sideWeight="0.50350875" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.49649122" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3270548" sideWeight="0.5140351" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17894737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.48947367" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3270548" sideWeight="0.48596492" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49649122" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -639,7 +638,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
+        <state relative-caret-position="143">
           <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
           <folding>
             <marker date="1459844360629" expanded="true" signature="1290:1309" placeholder="Select * fro... users" />
