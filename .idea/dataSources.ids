@@ -1,6 +1,447 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
   <data-source name="MySQL - qicheheng@localhost" uuid="cf9ae059-2634-4d7f-9ca3-f207bd6f3254">
-    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+    <database-info product="MySQL" version="5.5.47-0ubuntu0.14.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
+      <schema id="1" name="qicheheng"/>
+      <table id="2" parent="1" name="address"/>
+      <table id="3" parent="1" name="auctioner"/>
+      <table id="4" parent="1" name="client"/>
+      <table id="5" parent="1" name="collector"/>
+      <table id="6" parent="1" name="contact"/>
+      <table id="7" parent="1" name="cost_price"/>
+      <table id="8" parent="1" name="customer"/>
+      <table id="9" parent="1" name="dealer"/>
+      <table id="10" parent="1" name="employee"/>
+      <table id="11" parent="1" name="item"/>
+      <table id="12" parent="1" name="person"/>
+      <table id="13" parent="1" name="regular_worker"/>
+      <table id="14" parent="1" name="seller"/>
+      <table id="15" parent="1" name="selling_price"/>
+      <table id="16" parent="1" name="specialist"/>
+      <table id="17" parent="1" name="users"/>
+      <column id="18" parent="2" name="person_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="19" parent="2" name="house_no">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="20" parent="2" name="street">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="21" parent="2" name="city">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="22" parent="2" name="state">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="23" parent="2" name="country">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <index id="24" parent="2" name="idx_addresses">
+        <columns>person_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <foreign-key id="25" parent="2" name="fk_addresses_persons">
+        <columns>person_id</columns>
+        <ref-key>~.person.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="26" parent="3" name="auctioner_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="27" parent="3" name="auction_date">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <index id="28" parent="3" name="idx_auctioner">
+        <columns>auctioner_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <foreign-key id="29" parent="3" name="fk_auctioner_client">
+        <columns>auctioner_id</columns>
+        <ref-key>~.client.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="30" parent="4" name="client_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="31" parent="4" name="PRIMARY">
+        <columns>client_id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="32" parent="4" name="fk_client_person">
+        <columns>client_id</columns>
+        <ref-key>~.person.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="33" parent="5" name="collector_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="34" parent="5" name="item_id">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="35" parent="5" name="client_id">
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="36" parent="5" name="idx_collector">
+        <columns>collector_id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="37" parent="5" name="idx_collector_0">
+        <columns>item_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="38" parent="5" name="idx_collector_1">
+        <columns>client_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="39" parent="5" name="idx_collector">
+        <columns>collector_id</columns>
+        <underlying-index>idx_collector</underlying-index>
+      </key>
+      <foreign-key id="40" parent="5" name="fk_collector_client">
+        <columns>client_id</columns>
+        <ref-key>~.client.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="41" parent="5" name="fk_collector_employee">
+        <columns>collector_id</columns>
+        <ref-key>~.employee.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="42" parent="5" name="fk_collector_item">
+        <columns>item_id</columns>
+        <ref-key>~.item.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="43" parent="6" name="person_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="44" parent="6" name="mobile">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="45" parent="6" name="landline">
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="46" parent="6" name="email">
+        <data-type>varchar(320)</data-type>
+      </column>
+      <index id="47" parent="6" name="idx_contact">
+        <columns>person_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <foreign-key id="48" parent="6" name="fk_contact_person">
+        <columns>person_id</columns>
+        <ref-key>~.person.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="49" parent="7" name="item_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="50" parent="7" name="price">
+        <mandatory>1</mandatory>
+        <data-type>decimal(10)</data-type>
+      </column>
+      <column id="51" parent="7" name="client_id">
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="52" parent="7" name="idx_cost_price">
+        <columns>client_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="53" parent="7" name="PRIMARY">
+        <columns>item_id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="54" parent="7" name="fk_cost_price_client">
+        <columns>client_id</columns>
+        <ref-key>~.client.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="55" parent="7" name="fk_cost_price_item">
+        <columns>item_id</columns>
+        <ref-key>~.item.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="56" parent="8" name="customer_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="57" parent="8" name="item_id">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="58" parent="8" name="selling_time">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <index id="59" parent="8" name="idx_customer">
+        <columns>customer_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="60" parent="8" name="idx_customer_0">
+        <columns>item_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <foreign-key id="61" parent="8" name="fk_customer_item">
+        <columns>item_id</columns>
+        <ref-key>~.item.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="62" parent="8" name="fk_customer_person">
+        <columns>customer_id</columns>
+        <ref-key>~.person.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="63" parent="9" name="dealer_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="64" parent="9" name="idx_dealer">
+        <columns>dealer_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <foreign-key id="65" parent="9" name="fk_dealer_client">
+        <columns>dealer_id</columns>
+        <ref-key>~.client.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="66" parent="10" name="emp_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="67" parent="10" name="salary">
+        <mandatory>1</mandatory>
+        <data-type>decimal(10)</data-type>
+      </column>
+      <column id="68" parent="10" name="doj">
+        <comment>Date of joining</comment>
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <key id="69" parent="10" name="PRIMARY">
+        <columns>emp_id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="70" parent="10" name="fk_employee_persons">
+        <columns>emp_id</columns>
+        <ref-key>~.person.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="71" parent="11" name="item_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="72" parent="11" name="name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="73" parent="11" name="description">
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="74" parent="11" name="condition">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="75" parent="11" name="collector_id">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="76" parent="11" name="customer_id">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="77" parent="11" name="client_id">
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="78" parent="11" name="idx_item">
+        <columns>collector_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="79" parent="11" name="idx_item_0">
+        <columns>customer_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="80" parent="11" name="idx_item_1">
+        <columns>client_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="81" parent="11" name="PRIMARY">
+        <columns>item_id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="82" parent="11" name="fk_item_client">
+        <columns>client_id</columns>
+        <ref-key>~.client.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="83" parent="11" name="fk_item_collector">
+        <columns>collector_id</columns>
+        <ref-key>~.collector.idx_collector</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="84" parent="12" name="person_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="85" parent="12" name="f_name">
+        <comment>First Name</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="86" parent="12" name="l_name">
+        <comment>last name</comment>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="87" parent="12" name="dob">
+        <comment>Date of birth</comment>
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="88" parent="12" name="sex">
+        <comment>Gender</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(1)</data-type>
+      </column>
+      <column id="89" parent="12" name="age">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="90" parent="12" name="PRIMARY">
+        <columns>person_id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="91" parent="13" name="emp_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="92" parent="13" name="idx_regular_worker">
+        <columns>emp_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <foreign-key id="93" parent="13" name="fk_regular_worker_employee">
+        <columns>emp_id</columns>
+        <ref-key>~.employee.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="94" parent="14" name="seller_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="95" parent="14" name="idx_seller">
+        <columns>seller_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <foreign-key id="96" parent="14" name="fk_seller_client">
+        <columns>seller_id</columns>
+        <ref-key>~.client.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="97" parent="15" name="item_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="98" parent="15" name="price">
+        <mandatory>1</mandatory>
+        <data-type>decimal(10)</data-type>
+      </column>
+      <column id="99" parent="15" name="specialist_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="100" parent="15" name="idx_selling_price">
+        <columns>specialist_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="101" parent="15" name="PRIMARY">
+        <columns>item_id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="102" parent="15" name="fk_selling_price_item">
+        <columns>item_id</columns>
+        <ref-key>~.item.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="103" parent="16" name="emp_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="104" parent="16" name="item_id">
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="105" parent="16" name="idx_spcialist">
+        <columns>emp_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="106" parent="16" name="idx_spcialist_0">
+        <columns>item_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <foreign-key id="107" parent="16" name="fk_spcialist_employee">
+        <columns>emp_id</columns>
+        <ref-key>~.employee.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="108" parent="16" name="fk_spcialist_item">
+        <columns>item_id</columns>
+        <ref-key>~.item.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="109" parent="17" name="user_id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="110" parent="17" name="username">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="111" parent="17" name="password">
+        <mandatory>1</mandatory>
+        <data-type>varchar(40)</data-type>
+      </column>
+      <key id="112" parent="17" name="PRIMARY">
+        <columns>user_id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
   </data-source>
 </component>

@@ -1,4 +1,4 @@
-<html>
+<html lang="zh">
 <?php
 include "head.php";
 ?>
@@ -17,7 +17,7 @@ include "head.php";
     <h2>登录页面</h2>
     <a href="index.php">返回</a>
 
-    <form class="pure-form pure-form-aligned" action="checklogin.php" method="POST">
+    <form method="POST" class="pure-form pure-form-aligned" action="checklogin.php" >
         <fieldset>
             <div class="pure-control-group">
                 <label for="name">用户名</label>
