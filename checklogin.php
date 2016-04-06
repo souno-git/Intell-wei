@@ -6,12 +6,12 @@
  * Time: 上午11:45
  */
 session_start();
-$username = mysql_real_escape_string($_POST["username"]);
-$password = mysql_real_escape_string($_POST["password"]);
+$username = $_POST["username"];
+$password = $_POST["password"];
 
 require 'connect.inc.php'; //链接到数据库
 //$query = mysql_query("SELECT * from users WHERE username='$username'"); //如果输入用户名=数据库中用户名提取出对应数据
-$query = mysql_query("SELECT * from users WHERE username=$username");
+$query = mysql_query("SELECT * from users WHERE username='$username'");
 $exists = mysql_num_rows($query); //检查用户是否存在
 $table_users = "";
 $table_password = "";
