@@ -26,60 +26,52 @@ $user = $_SESSION['user']; //读取用户
     <div class="pure-menu pure-menu-open pure-menu-horizontal">
 
         <ul>
-            <h2>     <li class="pure-menu-selected"><a href="home.php">Items</a></li>
-                <li><a href="employee.php">Employees</a></li>
-                <li><a href="client.php">Clients</a></li>
-                <li><a href="customer.php">Customers</a></li>
-                <li><a href="sale.php">Sales</a></li>
+            <h2>     <li class="pure-menu-selected"><a href="home.php">称重列表</a></li>
+                <li><a href="employee.php">管理员</a></li>
+                <li><a href="client.php">司机</a></li>
+                <li><a href="customer.php">车辆</a></li>
             </h2>
         </ul>
     </div>
-    <h2 align="center">Item list</h2>
+    <h2 align="center">称重列表</h2>
     <nav class="float-right">
         <div class="pure-menu pure-menu-open pure-menu-horizontal">
             <ul>
-                <li><a href="add_item.php">Add Item</a></li>
+                <li><a href="add_manage.php">添加记录</a></li>
             </ul>
         </div>
     </nav>
     <table class="pure-table pure-table-bordered">
         <thead>
         <tr>
-            <th>Id</th>
-            <th>Name</th>
-            <th>Description</th>
-            <th>Condition</th>
-            <th>Customer_ID</th>
-            <th>Client_ID</th>
-            <th>Collector_ID</th>
-            <th>Edit</th>
-            <th>Delete</th>
+            <th>管理号</th>
+            <th>账号</th>
+            <th>车牌号</th>
+            <th>类型</th>
+            <th>净重</th>
+            <th>时间</th>
+            <th>备注</th>
+            <th>编辑</th>
+            <th>删除</th>
         </tr>
         </thead>
 
         <tbody>
         <?php
         include "connect.inc.php";
-        $queryitem = mysql_query("Select * from item");
+        $queryitem = mysql_query("Select * from manage");
         while($row = mysql_fetch_array($queryitem))
         {
             echo "<tr>";
-            echo '<td align="center"><a href="item.php?id='. $row['item_id'] .'">'. $row['item_id'] . "</a></td>";
-            echo '<td align="center">'. $row['name'] . "</td>";
-            echo '<td align="center">'. $row['description'] . "</td>";
-            echo '<td align="center">'. $row['condition'] . "</td>";
-            if ($row['customer_id'] == NULL)
-            {
-                echo '<td align="center">'. 'Not yet sold' . "</td>";
-            }
-            else
-            {
-                echo '<td align="center"><a href="person.php?id='. $row['customer_id'] .'">'. $row['customer_id'] . "</a></td>";
-            }
-            echo '<td align="center"><a href="person.php?id='. $row['client_id'] .'">'. $row['client_id'] . "</a></td>";
-            echo '<td align="center"><a href="person.php?id='. $row['collector_id'] .'">'. $row['collector_id'] . "</a></td>";
-            echo '<td align="center"> <a href="edit_item.php?id='. $row['item_id'] .'"> edit </a> </td>';
-            echo '<td align="center"> <a href="delete_item.php?id='. $row['item_id'] .'"> delete </a></td>';
+            echo '<td align="center"><a href="item.php?id='. $row['manage_id'] .'">'. $row['manage_id'] . "</a></td>";
+            echo '<td align="center">'. $row['user_id'] . "</td>";
+            echo '<td align="center">'. $row['carnum'] . "</td>";
+            echo '<td align="center">'. $row['kind'] . "</td>";
+            echo '<td align="center">'. $row['weight'] . "</td>";
+            echo '<td align="center">'. $row['time'] . "</td>";
+            echo '<td align="center">'. $row['remarks'] . "</td>";
+            echo '<td align="center"> <a href="edit_item.php?id='. $row['manage_id'] .'"> 编辑 </a> </td>';
+            echo '<td align="center"> <a href="delete_item.php?id='. $row['manage_id'] .'"> 删除 </a></td>';
             echo "</tr>";
         }
         ?>
