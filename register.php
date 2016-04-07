@@ -36,28 +36,28 @@ include "head.php";
 
 <?php
 if($_SERVER["REQUEST_METHOD"] == "POST"){
-    $username = mysql_real_escape_string($_POST['username']);
-    $password = mysql_real_escape_string($_POST['password']);
+    $username = $_POST['username'];
+    $password = $_POST['password'];
     $bool = true;
 
-    require 'connect.inc.php'; //Connect to database
-    $query = mysql_query("Select * from users"); //Query the users table
-    while($row = mysql_fetch_array($query)) //display all rows from query
+    require 'connect.inc.php'; //连接到数据库
+    $query = mysql_query("Select * from users"); //获取用户表
+    while($row = mysql_fetch_array($query)) //显示用户数据
     {
-        $table_users = $row['username']; // the first username row is passed on to $table_users, and so on until the query is finished
-        if($username == $table_users) // checks if there are any matching fields
+        $table_users = $row['username']; //逐行对比完成
+        if($username == $table_users) // 减产用户是否存在
         {
             $bool = false; // sets bool to false
-            Print '<script>alert("Username has been taken!");</script>'; //Prompts the user
-            Print '<script>window.location.assign("register.php");</script>'; // redirects to register.php
+            Print '<script>alert("Username has been taken!");</script>'; //提示用户存在
+            Print '<script>window.location.assign("register.php");</script>'; // 重定向注册页面
         }
     }
 
     if($bool) // checks if bool is true
     {
-        mysql_query("INSERT INTO users (username, password) VALUES ('$username','$password')"); //Inserts the value to table users
-        Print '<script>alert("Successfully Registered!");</script>'; // Prompts the user
-        Print '<script>window.location.assign("register.php");</script>'; // redirects to register.php
+        mysql_query("INSERT INTO users (username, password) VALUES ('$username','$password')"); //在用户表中写入所有的数据
+        Print '<script>alert("Successfully Registered!");</script>'; // 提示用户
+        Print '<script>window.location.assign("register.php");</script>'; // 重定向到register.php
     }
 
 }

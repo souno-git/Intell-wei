@@ -1,12 +1,12 @@
 <?php
-session_start(); //starts the session
+session_start(); //启用session
 if($_SESSION['user']){
-    header("location: home.php");// checks if the user is logged in
+    header("location: home.php");// 检查用户是否登录
 }
 else{
-    header("location: login.php"); // redirects if user is not logged in
+    header("location: login.php"); // 未登录则返回主页
 }
-$user = $_SESSION['user']; //assigns user value
+$user = $_SESSION['user']; //读取用户值
 ?>
 <html lang="en">
 <?php

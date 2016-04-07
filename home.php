@@ -3,13 +3,13 @@
 include "head.php";
 ?>
 <?php
-session_start(); //starts the session
-if($_SESSION['user']){ // checks if the user is logged in
+session_start(); //启用session
+if($_SESSION['user']){ // 检查用户是否登陆
 }
 else{
-    header("location: index.php"); // redirects if user is not logged in
+    header("location: index.php"); // 如果用户未登录则调用主页
 }
-$user = $_SESSION['user']; //assigns user value
+$user = $_SESSION['user']; //读取用户
 ?>
 <body>
 <div class="container">

@@ -6,6 +6,6 @@
  * Time: 上午11:45
  */
 session_start();
-session_destroy();
+session_destroy();//清楚seesion数据
 header("location:index.php");
 ?>
