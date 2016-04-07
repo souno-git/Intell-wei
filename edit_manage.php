@@ -105,7 +105,7 @@ $user = $_SESSION['user']; //assigns user value
             <div class="pure-control-group">
                 <label for="manage_id">管理号</label>
                 <?php
-                echo '<input id="manage_id" type="text" value="'.$manage_id.'" name="manage_id">'
+                echo '<input readonly id="manage_id" type="text" value="'.$manage_id.'" name="manage_id">'
                 ?>
             </div>
             <div class="pure-control-group">
