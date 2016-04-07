@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f424ec2b-7f43-404c-aa3e-aca5f561f700" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/add_manage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addmanage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/delete_manage.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.php" afterPath="$PROJECT_DIR$/home.php" />
     </list>
@@ -101,16 +98,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logout.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logout.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="checklogin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/checklogin.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -138,14 +125,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-52">
-              <caret line="39" column="58" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
+            <state relative-caret-position="490">
+              <caret line="71" column="66" selection-start-line="71" selection-start-column="66" selection-end-line="71" selection-end-column="66" />
               <folding>
-                <marker date="1460013877986" expanded="true" signature="1611:1625" placeholder="Select * fro... item" />
-                <marker date="1460013877986" expanded="true" signature="1611:1631" placeholder="Select * fro... manage" />
+                <marker date="1460022722473" expanded="true" signature="1611:1625" placeholder="Select * fro... item" />
+                <marker date="1460022722473" expanded="true" signature="1611:1631" placeholder="Select * fro... manage" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete_manage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/delete_manage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+              <folding>
+                <marker date="1460022624813" expanded="true" signature="341:381" placeholder="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -164,10 +163,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addmanage.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="addmanage.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addmanage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="300">
               <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
               <folding>
                 <marker date="1460018357910" expanded="true" signature="661:689" placeholder="INSERT INTO " />
@@ -236,9 +235,10 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/logout.php" />
         <option value="$PROJECT_DIR$/register.php" />
-        <option value="$PROJECT_DIR$/home.php" />
         <option value="$PROJECT_DIR$/add_manage.php" />
         <option value="$PROJECT_DIR$/addmanage.php" />
+        <option value="$PROJECT_DIR$/delete_manage.php" />
+        <option value="$PROJECT_DIR$/home.php" />
       </list>
     </option>
   </component>
@@ -410,7 +410,7 @@
       <workItem from="1459923668689" duration="3653000" />
       <workItem from="1459928928638" duration="274000" />
       <workItem from="1459953461829" duration="967000" />
-      <workItem from="1460004871569" duration="11990000" />
+      <workItem from="1460004871569" duration="14377000" />
     </task>
     <task id="LOCAL-00001" summary="2014-04-04&#10;">
       <created>1459763660044</created>
@@ -475,11 +475,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460006763436</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="完成记录添加功能！&#10;">
+      <created>1460018493435</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1460018493435</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36260000" />
+    <option name="totallyTimeSpent" value="38647000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="31" width="1238" height="703" extended-state="0" />
@@ -526,20 +533,14 @@
     <MESSAGE value="2014-04-05&#10;home+++&#10;" />
     <MESSAGE value="2014-04-05&#10;home++++++&#10;" />
     <MESSAGE value="代码添加注释！&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="代码添加注释！&#10;" />
+    <MESSAGE value="完成记录添加功能！&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成记录添加功能！&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/connect.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -880,17 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
-          <caret line="39" column="58" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
-          <folding>
-            <marker date="1460013877986" expanded="true" signature="1611:1625" placeholder="Select * fro... item" />
-            <marker date="1460013877986" expanded="true" signature="1611:1631" placeholder="Select * fro... manage" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/add_manage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8">
@@ -917,7 +907,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addmanage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="300">
           <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
           <folding>
             <marker date="1460018357910" expanded="true" signature="661:689" placeholder="INSERT INTO " />
@@ -925,6 +915,27 @@
             <marker date="1460018357910" expanded="true" signature="661:801" placeholder="INSERT INTO " />
             <marker date="1460018357910" expanded="true" signature="861:996" placeholder="INSERT INTO " />
             <marker date="1460018357910" expanded="true" signature="861:1007" placeholder="INSERT INTO `indus_shop`.`item`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delete_manage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding>
+            <marker date="1460022624813" expanded="true" signature="341:381" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="71" column="66" selection-start-line="71" selection-start-column="66" selection-end-line="71" selection-end-column="66" />
+          <folding>
+            <marker date="1460022722473" expanded="true" signature="1611:1625" placeholder="Select * fro... item" />
+            <marker date="1460022722473" expanded="true" signature="1611:1631" placeholder="Select * fro... manage" />
           </folding>
         </state>
       </provider>
