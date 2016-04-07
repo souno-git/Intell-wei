@@ -49,7 +49,7 @@ $car_query=mysql_query("SELECT carnum FROM car") or die ("Error Occurred");
                 </select>
             </div>
             <div class="pure-control-group">
-                <label for="carnum">账号</label>
+                <label for="carnum">车牌号</label>
                 <select name = "carnum">
                     <?php
                     while ($row=mysql_fetch_array($car_query)) {

@@ -70,7 +70,7 @@ $user = $_SESSION['user']; //读取用户
             echo '<td align="center">'. $row['weight'] . "</td>";
             echo '<td align="center">'. $row['time'] . "</td>";
             echo '<td align="center">'. $row['remarks'] . "</td>";
-            echo '<td align="center"> <a href="edit_item.php?id='. $row['manage_id'] .'"> 编辑 </a> </td>';
+            echo '<td align="center"> <a href="edit_manage.php?id='. $row['manage_id'] .'"> 编辑 </a> </td>';
             echo '<td align="center"> <a href="delete_manage.php?id='. $row['manage_id'] .'"> 删除 </a></td>';
             echo "</tr>";
         }
