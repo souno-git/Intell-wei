@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f424ec2b-7f43-404c-aa3e-aca5f561f700" name="Default" comment="完成称重管理功能！&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/add_users.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/delete_users.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/edit_users.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editusers.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users.php" />
+    <list default="true" id="f424ec2b-7f43-404c-aa3e-aca5f561f700" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/add_cars.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/add_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cars.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/delete_cars.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/delete_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/edit_cars.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/edit_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editcars.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editdriver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_manage.php" afterPath="$PROJECT_DIR$/edit_manage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/add_manage.php" afterPath="$PROJECT_DIR$/add_manage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/add_users.php" afterPath="$PROJECT_DIR$/add_users.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.php" afterPath="$PROJECT_DIR$/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users.php" afterPath="$PROJECT_DIR$/users.php" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,10 +49,6 @@
         <option name="myItemId" value="MySQL - qicheheng@localhost" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="users" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
     </PATH>
     <PATH>
       <PATH_ELEMENT>
@@ -56,21 +60,7 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="manage" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - qicheheng@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="car" />
+        <option name="myItemId" value="driver" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
@@ -81,75 +71,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="users.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/users.php">
+      <file leaf-file-name="driver.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/driver.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="73" column="47" selection-start-line="73" selection-start-column="47" selection-end-line="73" selection-end-column="59" />
+            <state relative-caret-position="184">
+              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="77" selection-end-column="65" />
               <folding>
-                <marker date="1460034707465" expanded="true" signature="1667:1686" placeholder="Select * fro... users" />
+                <marker date="1460095291264" expanded="true" signature="1708:1728" placeholder="Select * fro... driver" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="delete_users.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delete_users.php">
+      <file leaf-file-name="add_driver.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/add_driver.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+            <state relative-caret-position="-60">
+              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
               <folding>
-                <marker date="1460039015705" expanded="true" signature="341:378" placeholder="DELETE FROM " />
+                <marker date="1460096764772" expanded="true" signature="404:426" placeholder="SELECT carnu... car" />
+                <marker date="1460096764772" expanded="true" signature="3631:3651" placeholder="Select * fro... driver" />
+                <marker date="1460096764772" expanded="true" signature="4133:4296" placeholder="INSERT INTO driver... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/head.php">
+      <file leaf-file-name="edit_driver.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/edit_driver.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete_manage.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delete_manage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+            <state relative-caret-position="214">
+              <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
               <folding>
-                <marker date="1460022624813" expanded="true" signature="341:381" placeholder="DELETE FROM " />
+                <marker date="1460100724468" expanded="true" signature="1381:1423" placeholder="Select * fro... driver" />
+                <marker date="1460100724468" expanded="true" signature="2902:2924" placeholder="SELECT carnu... car" />
+                <marker date="1460100724468" expanded="true" signature="4636:4728" placeholder="..." />
+                <marker date="1460100724468" expanded="true" signature="5348:5457" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/home.php">
+      <file leaf-file-name="editdriver.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/editdriver.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="420">
+              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
               <folding>
-                <marker date="1460039315613" expanded="true" signature="1662:1676" placeholder="Select * fro... item" />
-                <marker date="1460039315613" expanded="true" signature="1662:1682" placeholder="Select * fro... manage" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit_users.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/edit_users.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1023">
-              <caret line="114" column="6" selection-start-line="114" selection-start-column="6" selection-end-line="114" selection-end-column="6" />
-              <folding>
-                <marker date="1460037877441" expanded="true" signature="1280:1319" placeholder="Select * fro... users" />
-                <marker date="1460037877441" expanded="true" signature="3022:3252" placeholder="..." />
-                <marker date="1460037877441" expanded="true" signature="3297:3507" placeholder="..." />
-                <marker date="1460037877441" expanded="true" signature="3548:3688" placeholder="..." />
+                <marker date="1460100569572" expanded="true" signature="732:922" placeholder="UPDATE drive... " />
               </folding>
             </state>
           </provider>
@@ -158,24 +127,12 @@
       <file leaf-file-name="editmanage.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/editmanage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="90">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
               <folding>
                 <marker date="1460028591917" expanded="true" signature="705:825" placeholder="UPDATE manag... " />
                 <marker date="1460028591917" expanded="true" signature="705:877" placeholder="UPDATE manag... " />
                 <marker date="1460028591917" expanded="true" signature="912:1090" placeholder="UPDATE `indu... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editusers.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editusers.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-              <folding>
-                <marker date="1460038763969" expanded="true" signature="509:631" placeholder="UPDATE users... " />
               </folding>
             </state>
           </provider>
@@ -206,19 +163,33 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/logout.php" />
         <option value="$PROJECT_DIR$/register.php" />
-        <option value="$PROJECT_DIR$/addmanage.php" />
         <option value="$PROJECT_DIR$/delete_manage.php" />
-        <option value="$PROJECT_DIR$/add_manage.php" />
         <option value="$PROJECT_DIR$/editmanage.php" />
         <option value="$PROJECT_DIR$/user.php" />
         <option value="$PROJECT_DIR$/footer.php" />
-        <option value="$PROJECT_DIR$/users.php" />
         <option value="$PROJECT_DIR$/edit_manage.php" />
-        <option value="$PROJECT_DIR$/add_users.php" />
         <option value="$PROJECT_DIR$/edit_users.php" />
         <option value="$PROJECT_DIR$/editusers.php" />
         <option value="$PROJECT_DIR$/delete_users.php" />
+        <option value="$PROJECT_DIR$/addmanage.php" />
+        <option value="$PROJECT_DIR$/add_users.php" />
+        <option value="$PROJECT_DIR$/addcar.php" />
+        <option value="$PROJECT_DIR$/car.php" />
+        <option value="$PROJECT_DIR$/add_car.php" />
+        <option value="$PROJECT_DIR$/delete_car.php" />
+        <option value="$PROJECT_DIR$/edit_car.php" />
+        <option value="$PROJECT_DIR$/editcar.php" />
+        <option value="$PROJECT_DIR$/add_cars.php" />
+        <option value="$PROJECT_DIR$/steer.php" />
+        <option value="$PROJECT_DIR$/users.php" />
         <option value="$PROJECT_DIR$/home.php" />
+        <option value="$PROJECT_DIR$/cars.php" />
+        <option value="$PROJECT_DIR$/add_manage.php" />
+        <option value="$PROJECT_DIR$/driver.php" />
+        <option value="$PROJECT_DIR$/add_driver.php" />
+        <option value="$PROJECT_DIR$/delete_driver.php" />
+        <option value="$PROJECT_DIR$/editdriver.php" />
+        <option value="$PROJECT_DIR$/edit_driver.php" />
       </list>
     </option>
   </component>
@@ -238,8 +209,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="57" />
-    <option name="y" value="30" />
+    <option name="x" value="76" />
+    <option name="y" value="32" />
     <option name="width" value="1238" />
     <option name="height" value="703" />
   </component>
@@ -391,7 +362,8 @@
       <workItem from="1459928928638" duration="274000" />
       <workItem from="1459953461829" duration="967000" />
       <workItem from="1460004871569" duration="24905000" />
-      <workItem from="1460033941467" duration="5431000" />
+      <workItem from="1460033941467" duration="5770000" />
+      <workItem from="1460076510797" duration="22550000" />
     </task>
     <task id="LOCAL-00001" summary="2014-04-04&#10;">
       <created>1459763660044</created>
@@ -477,11 +449,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460029131893</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="完成用户管理功能！&#10;">
+      <created>1460039391188</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1460039391188</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54606000" />
+    <option name="totallyTimeSpent" value="77495000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -493,15 +472,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="30" width="1238" height="703" extended-state="0" />
+    <frame x="76" y="32" width="1238" height="703" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16610739" sideWeight="0.4924406" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16862416" sideWeight="0.4924406" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.4966443" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761577" sideWeight="0.5033557" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20050335" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2058319" sideWeight="0.46560404" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17533557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18353345" sideWeight="0.46560404" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761577" sideWeight="0.48238254" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16610739" sideWeight="0.5075594" order="2" side_tool="true" content_ui="tabs" />
@@ -540,113 +519,14 @@
     <MESSAGE value="完成记录添加功能！&#10;" />
     <MESSAGE value="完成记录删除功能！&#10;" />
     <MESSAGE value="完成称重管理功能！&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成称重管理功能！&#10;" />
+    <MESSAGE value="完成用户管理功能！&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成用户管理功能！&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/pure-min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/connect.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/checklogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1459939034466" expanded="true" signature="327:373" placeholder="SELECT * fro... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-          <folding>
-            <marker date="1460006563842" expanded="true" signature="1225:1244" placeholder="Select * fro... users" />
-            <marker date="1460006563842" expanded="true" signature="1729:1800" placeholder="INSERT INTO users... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/minimal.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1515">
-          <caret line="101" column="6" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/pure-min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/connect.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/connect.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -729,14 +609,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/4a02a0c7/017c5500-c40e-4a21-8ade-17c9ac293b90/qicheheng.item">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -757,20 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addmanage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="0" selection-end-line="23" selection-end-column="12" />
-          <folding>
-            <marker date="1460018357910" expanded="true" signature="661:689" placeholder="INSERT INTO " />
-            <marker date="1460018357910" expanded="true" signature="661:722" placeholder="INSERT INTO " />
-            <marker date="1460018357910" expanded="true" signature="661:801" placeholder="INSERT INTO " />
-            <marker date="1460018357910" expanded="true" signature="861:996" placeholder="INSERT INTO " />
-            <marker date="1460018357910" expanded="true" signature="861:1007" placeholder="INSERT INTO `indus_shop`.`item`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/connect.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -779,14 +645,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/4a02a0c7/017c5500-c40e-4a21-8ade-17c9ac293b90/qicheheng.manage">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -798,14 +664,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/4a02a0c7/017c5500-c40e-4a21-8ade-17c9ac293b90/qicheheng.users">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -813,7 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,91 +693,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/add_manage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="70" column="44" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
-          <folding>
-            <marker date="1460026494669" expanded="true" signature="411:436" placeholder="SELECT user_... users" />
-            <marker date="1460026494669" expanded="true" signature="490:512" placeholder="SELECT carnu... car" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/pure-min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edit_manage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="166" selection-end-column="7" />
-          <folding>
-            <marker date="1460035004985" expanded="true" signature="1356:1398" placeholder="Select * fro... manage" />
-            <marker date="1460035004985" expanded="true" signature="3023:3048" placeholder="SELECT user_... users" />
-            <marker date="1460035004985" expanded="true" signature="3106:3128" placeholder="SELECT carnu... car" />
-            <marker date="1460035004985" expanded="true" signature="3127:3128" placeholder="SELECT colle... collector" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/add_users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-          <folding>
-            <marker date="1460037698733" expanded="true" signature="1677:1696" placeholder="Select * fro... users" />
-            <marker date="1460037698733" expanded="true" signature="2182:2266" placeholder="INSERT INTO users... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/editmanage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <marker date="1460028591917" expanded="true" signature="705:825" placeholder="UPDATE manag... " />
-            <marker date="1460028591917" expanded="true" signature="705:877" placeholder="UPDATE manag... " />
-            <marker date="1460028591917" expanded="true" signature="912:1090" placeholder="UPDATE `indu... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/editusers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-          <folding>
-            <marker date="1460038763969" expanded="true" signature="509:631" placeholder="UPDATE users... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edit_users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1023">
-          <caret line="114" column="6" selection-start-line="114" selection-start-column="6" selection-end-line="114" selection-end-column="6" />
-          <folding>
-            <marker date="1460037877441" expanded="true" signature="1280:1319" placeholder="Select * fro... users" />
-            <marker date="1460037877441" expanded="true" signature="3022:3252" placeholder="..." />
-            <marker date="1460037877441" expanded="true" signature="3297:3507" placeholder="..." />
-            <marker date="1460037877441" expanded="true" signature="3548:3688" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="73" column="47" selection-start-line="73" selection-start-column="47" selection-end-line="73" selection-end-column="59" />
-          <folding>
-            <marker date="1460034707465" expanded="true" signature="1667:1686" placeholder="Select * fro... users" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -934,23 +719,251 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/addcar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/delete_manage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        <state relative-caret-position="45">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
           <folding>
             <marker date="1460022624813" expanded="true" signature="341:381" placeholder="DELETE FROM " />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="dbDummy://dbtable:/4a02a0c7/017c5500-c40e-4a21-8ade-17c9ac293b90/qicheheng.car">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addmanage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <marker date="1460018357910" expanded="true" signature="661:689" placeholder="INSERT INTO " />
+            <marker date="1460018357910" expanded="true" signature="661:722" placeholder="INSERT INTO " />
+            <marker date="1460018357910" expanded="true" signature="661:801" placeholder="INSERT INTO " />
+            <marker date="1460018357910" expanded="true" signature="861:996" placeholder="INSERT INTO " />
+            <marker date="1460018357910" expanded="true" signature="861:1007" placeholder="INSERT INTO `indus_shop`.`item`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editusers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+          <folding>
+            <marker date="1460038763969" expanded="true" signature="509:631" placeholder="UPDATE users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editcars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding>
+            <marker date="1460088667324" expanded="true" signature="615:671" placeholder="UPDATE car S... " />
+            <marker date="1460088667324" expanded="true" signature="615:761" placeholder="UPDATE car S... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit_cars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="87" column="44" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
+          <folding>
+            <marker date="1460088797804" expanded="true" signature="1267:1303" placeholder="Select * fro... car" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_cars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="95" column="33" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
+          <folding>
+            <marker date="1460088729936" expanded="true" signature="2915:2932" placeholder="Select * fro... car" />
+            <marker date="1460088729936" expanded="true" signature="3434:3549" placeholder="INSERT INTO car... " />
+            <marker date="1460088729936" expanded="true" signature="3613:3732" placeholder="INSERT INTO car... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/steer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="63">
+          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
           <folding>
-            <marker date="1460039315613" expanded="true" signature="1662:1676" placeholder="Select * fro... item" />
-            <marker date="1460039315613" expanded="true" signature="1662:1682" placeholder="Select * fro... manage" />
+            <marker date="1460090876760" expanded="true" signature="1662:1676" placeholder="Select * fro... item" />
+            <marker date="1460090876760" expanded="true" signature="1662:1682" placeholder="Select * fro... manage" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
+          <folding>
+            <marker date="1460090865932" expanded="true" signature="1608:1627" placeholder="Select * fro... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="86" column="7" selection-start-line="62" selection-start-column="0" selection-end-line="86" selection-end-column="7" />
+          <folding>
+            <marker date="1460090892348" expanded="true" signature="1658:1675" placeholder="Select * fro... car" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="60" column="10" selection-start-line="59" selection-start-column="0" selection-end-line="87" selection-end-column="2" />
+          <folding>
+            <marker date="1460081740948" expanded="true" signature="2198:2217" placeholder="Select * fro... users" />
+            <marker date="1460081740948" expanded="true" signature="2703:2787" placeholder="INSERT INTO users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delete_cars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <marker date="1460088667616" expanded="true" signature="341:375" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delete_driver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+          <folding>
+            <marker date="1460097165736" expanded="true" signature="341:381" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit_users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="63" column="12" selection-start-line="44" selection-start-column="0" selection-end-line="76" selection-end-column="12" />
+          <folding>
+            <marker date="1460037877441" expanded="true" signature="1280:1319" placeholder="Select * fro... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_manage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding>
+            <marker date="1460095124048" expanded="true" signature="411:436" placeholder="SELECT user_... users" />
+            <marker date="1460095124048" expanded="true" signature="490:512" placeholder="SELECT carnu... car" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/driver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="77" selection-end-column="65" />
+          <folding>
+            <marker date="1460095291264" expanded="true" signature="1708:1728" placeholder="Select * fro... driver" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_driver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+          <folding>
+            <marker date="1460096764772" expanded="true" signature="404:426" placeholder="SELECT carnu... car" />
+            <marker date="1460096764772" expanded="true" signature="3631:3651" placeholder="Select * fro... driver" />
+            <marker date="1460096764772" expanded="true" signature="4133:4296" placeholder="INSERT INTO driver... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit_manage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-407">
+          <caret line="85" column="20" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="45" />
+          <folding>
+            <marker date="1460035004985" expanded="true" signature="1356:1398" placeholder="Select * fro... manage" />
+            <marker date="1460035004985" expanded="true" signature="3023:3048" placeholder="SELECT user_... users" />
+            <marker date="1460035004985" expanded="true" signature="3106:3128" placeholder="SELECT carnu... car" />
+            <marker date="1460035004985" expanded="true" signature="3127:3128" placeholder="SELECT colle... collector" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editmanage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <marker date="1460028591917" expanded="true" signature="705:825" placeholder="UPDATE manag... " />
+            <marker date="1460028591917" expanded="true" signature="705:877" placeholder="UPDATE manag... " />
+            <marker date="1460028591917" expanded="true" signature="912:1090" placeholder="UPDATE `indu... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editdriver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding>
+            <marker date="1460100569572" expanded="true" signature="732:922" placeholder="UPDATE drive... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit_driver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+          <folding>
+            <marker date="1460100724468" expanded="true" signature="1381:1423" placeholder="Select * fro... driver" />
+            <marker date="1460100724468" expanded="true" signature="2902:2924" placeholder="SELECT carnu... car" />
+            <marker date="1460100724468" expanded="true" signature="4636:4728" placeholder="..." />
+            <marker date="1460100724468" expanded="true" signature="5348:5457" placeholder="..." />
           </folding>
         </state>
       </provider>

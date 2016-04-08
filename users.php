@@ -34,9 +34,8 @@ $user = $_SESSION['user']; //读取用户
         <ul>
             <h2>     <li><a href="home.php">称重列表</a></li>
                 <li class="pure-menu-selected"><a href="users.php">用户</a></li>
-                <li><a href="client.php">司机</a></li>
-                <li><a href="customer.php">车辆</a></li>
-                <li><a href="customer.php">驾驶</a></li>
+                <li><a href="driver.php">司机</a></li>
+                <li><a href="cars.php">车辆</a></li>
             </h2>
         </ul>
     </div>

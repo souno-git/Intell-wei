@@ -7,15 +7,28 @@
  * Time: 下午8:57
  */
 include "head.php";
+session_start(); //starts the session
+if($_SESSION['user']){ // checks if the user is logged in
+}
+else{
+    header("location: index.php"); // redirects if user is not logged in
+}
+$user = $_SESSION['user']; //assigns user value
 ?>
     <body>
     <div class="container">
         <header>
             <div class="logo" >贵阳学院汽车衡智能称重系统</div>
+            <nav class="float-right">
+                <div class="pure-menu pure-menu-open pure-menu-horizontal">
+                    <ul>
+                        <li><a href="users.php">返回</a></li>
+                        <li><a href="logout.php">退出登录</a></li>
+                    </ul>
+                </div>
+            </nav>
         </header>
         <h2 align="center">添加用户</h2>
-        <a href="users.php">返回</a>
-
         <form class="pure-form pure-form-aligned" action="add_users.php" method="POST">
             <fieldset>
                 <div class="pure-control-group">
@@ -33,7 +46,7 @@ include "head.php";
                 </div>
 
                 <div class="pure-controls">
-                    <button type="submit" class="pure-button pure-button-primary" type="submit" value="Register">确定</button>
+                    <button type="submit" class="pure-button pure-button-primary" type="submit" value="Register">提交</button>
                 </div>
             </fieldset>
         </form>
@@ -66,7 +79,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     if($bool) // checks if bool is true
     {
-        mysql_query("INSERT INTO users (username, password,perm) VALUES ('$username','$password','$perm')"); //在用户表中写入所有的数据
+        mysql_query("INSERT INTO users (username, password,perm) VALUES ('$username','$password','$perm');"); //在用户表中写入所有的数据
         Print '<script>alert("Successfully add!");</script>'; // 提示用户
         Print '<script>window.location.assign("users.php");</script>'; // 重定向到register.php
     }

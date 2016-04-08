@@ -62,11 +62,11 @@ $car_query=mysql_query("SELECT carnum FROM car") or die ("Error Occurred");
             </div>
             <div class="pure-control-group">
                 <label for="kind">类型</label>
-                <input id="kind" type="text" placeholder="Kind" name="kind">
+                <input id="kind" type="text" placeholder="Kind" name="kind" required="required">
             </div>
             <div class="pure-control-group">
                 <label for="weight">净重</label>
-                <input id="weight" type="text" placeholder="Weight" name="weight">
+                <input id="weight" type="text" placeholder="Weight" name="weight" required="required">
             </div>
             <div class="pure-control-group">
                 <label for="time">时间</label>
