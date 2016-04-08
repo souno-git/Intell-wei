@@ -35,7 +35,6 @@ $user = $_SESSION['user']; //assigns user value
         <thead>
         <tr>
             <th>驾驶证号</th>
-            <th>密码</th>
             <th>车牌号</th>
             <th>姓名</th>
             <th>生日</th>
@@ -59,7 +58,6 @@ $user = $_SESSION['user']; //assigns user value
                 while ($row = mysql_fetch_array($query)) {
                     echo "<tr>";
                     echo '<td align="center">'. $row['driver_id'] . "</td>";
-                    echo '<td align="center">'. $row['dpassword'] . "</td>";
                     echo '<td align="center">'. $row['carnum'] . "</td>";
                     echo '<td align="center">'. $row['name'] . "</td>";
                     echo '<td align="center">'. $row['bday'] . "</td>";

@@ -23,7 +23,7 @@ if($_SERVER['REQUEST_METHOD'] == "GET")
     $result=mysql_query($sql_query);
     // $result=mysql_query($sql_query);
     if(/*($result and $result2 and $result1 and $result3 and $result4 and*/ $result){
-        header("location:home.php");
+        header("location:admin.php");
     }
     else{
         echo mysql_error();

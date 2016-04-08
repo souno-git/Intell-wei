@@ -14,17 +14,17 @@ include "head.php";
             </div>
         </nav>
     </header>
-    <h2>管理登录页面</h2>
+    <h2>司机登录页面</h2>
 
-    <form method="POST" class="pure-form pure-form-aligned" action="checklogin.php" >
+    <form method="POST" class="pure-form pure-form-aligned" action="checkdlogin.php" >
         <fieldset>
             <div class="pure-control-group">
-                <label for="name">用户名</label>
+                <label for="name">驾驶证号</label>
                 <input id="name" type="text" placeholder="Username" name="username" required="required">
             </div>
 
             <div class="pure-control-group">
-                <label for="password">密     纹</label>
+                <label for="password">密  码</label>
                 <input id="password" type="password" placeholder="Password" name="password" required="required">
             </div>
             <div class="pure-controls">
@@ -38,4 +38,3 @@ include "head.php";
 </div>
 </body>
 </html>
-

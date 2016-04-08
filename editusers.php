@@ -6,7 +6,7 @@
  * Time: 下午6:58
  */
 session_start();
-if($_SESSION['user']){
+if($_SESSION['user']and $_SESSION['perm']){
 }
 else{
     header("location:index.php");
@@ -30,9 +30,9 @@ if($_SERVER['REQUEST_METHOD'] == "POST") //如果页面被调用则添加！
     else{
         die(mysql_error());
         Print '<script>alert("Error Occured");</script>'; //提示用户
-        //Print '<script>window.location.assign("home.php");</script>';
+        //Print '<script>window.location.assign("admin.php");</script>';
     }
-    //header("location: home.php");*/
+    //header("location: admin.php");*/
 
 }
 

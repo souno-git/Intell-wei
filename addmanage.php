@@ -35,7 +35,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST") //如果页面被调用则添加！
     $manage_id=mysql_insert_id();
     if($manage_id){
         echo("succeded");
-        header("location: home.php");
+        header("location: admin.php");
     }
     else{
         echo("failed");

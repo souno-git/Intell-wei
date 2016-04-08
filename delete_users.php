@@ -6,7 +6,7 @@
  * Time: 下午5:46
  */
 session_start(); //启用session
-if($_SESSION['user']){ //检查是否登录
+if($_SESSION['user']and $_SESSION['perm']){ //检查是否登录
 }
 else {
     header("location:index.php"); //未登录则重定向用户到主页

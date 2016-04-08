@@ -27,7 +27,7 @@ $car_query=mysql_query("SELECT carnum FROM car") or die ("Error Occurred");
         <nav class="float-right">
             <div class="pure-menu pure-menu-open pure-menu-horizontal">
                 <ul>
-                    <li><a href="home.php">返回</a></li>
+                    <li><a href="admin.php">返回</a></li>
                     <li><a href="logout.php">退出登录</a></li>
                 </ul>
             </div>

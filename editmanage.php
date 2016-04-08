@@ -34,14 +34,14 @@ if($_SERVER['REQUEST_METHOD'] == "POST") //如果页面被调用则添加！
     $result = mysql_query($sql);
     if($result){
         //echo("succeded");
-        header("location: home.php");
+        header("location: admin.php");
     }
     else{
         die(mysql_error());
         Print '<script>alert("Error Occured");</script>'; //提示用户
-        //Print '<script>window.location.assign("home.php");</script>';
+        //Print '<script>window.location.assign("admin.php");</script>';
     }
-    //header("location: home.php");*/
+    //header("location: admin.php");*/
 
 }
 

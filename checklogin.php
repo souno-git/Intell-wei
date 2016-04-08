@@ -21,14 +21,18 @@ if($exists > 0) //如果没有返回或者用户不存在
     {
         $table_users = $row['username']; // 逐行对比所有相同的用户直到完成
         $table_password = $row['password'];
+        $perm = $row['perm'];
 
     }
        if(($username == $table_users) && ($password == $table_password)) // 检查是否有任何匹配字段
        {
            if($password == $table_password)
            {
-               $_SESSION['user'] = $username; //在一个session中设置用户名。这是一个全局变量
-               header("location: home.php"); // 将用户重定向到认证主页
+               $_SESSION['user'] = $username;//在一个session中设置用户名。这是一个全局变量
+               if($perm == '1'){
+                   $_SESSION['perm'] = $perm;
+               }
+               header("location: admin.php"); // 将用户重定向到认证主页
            }
 
        }
