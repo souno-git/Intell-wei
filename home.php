@@ -33,7 +33,11 @@ $user = $_SESSION['user']; //读取用户
             </h2>
         </ul>
     </div>
-    <h2 align="center">称重列表</h2>
+    <h2 align="center">称重管理</h2>
+    <form class="pure-form pure-form-aligned" action="edit_manage.php" method="GET">
+        <label for="carnum">输入管理号:</label><br><input type="text" id="id_text" name="id">
+        <button type="submit" class="pure-button pure-button-primary">编辑</button>
+    </form>
     <nav class="float-right">
         <div class="pure-menu pure-menu-open pure-menu-horizontal">
             <ul>

@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f424ec2b-7f43-404c-aa3e-aca5f561f700" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/add_cars.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/add_driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cars.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/delete_cars.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/delete_driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/edit_cars.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/edit_driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editcars.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editdriver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/add_manage.php" afterPath="$PROJECT_DIR$/add_manage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/add_users.php" afterPath="$PROJECT_DIR$/add_users.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cars.php" afterPath="$PROJECT_DIR$/cars.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/driver.php" afterPath="$PROJECT_DIR$/driver.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.php" afterPath="$PROJECT_DIR$/home.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users.php" afterPath="$PROJECT_DIR$/users.php" />
     </list>
@@ -71,13 +59,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="users.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/users.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+              <folding>
+                <marker date="1460104306676" expanded="true" signature="1876:1895" placeholder="Select * fro... users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cars.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cars.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+              <folding>
+                <marker date="1460104484120" expanded="true" signature="1924:1941" placeholder="Select * fro... car" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="driver.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/driver.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="77" selection-end-column="65" />
+            <state relative-caret-position="199">
+              <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
               <folding>
-                <marker date="1460095291264" expanded="true" signature="1708:1728" placeholder="Select * fro... driver" />
+                <marker date="1460104602584" expanded="true" signature="1977:1997" placeholder="Select * fro... driver" />
               </folding>
             </state>
           </provider>
@@ -97,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit_driver.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="edit_driver.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/edit_driver.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+            <state relative-caret-position="315">
+              <caret line="99" column="95" selection-start-line="99" selection-start-column="79" selection-end-line="99" selection-end-column="95" />
               <folding>
                 <marker date="1460100724468" expanded="true" signature="1381:1423" placeholder="Select * fro... driver" />
                 <marker date="1460100724468" expanded="true" signature="2902:2924" placeholder="SELECT carnu... car" />
@@ -112,27 +124,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editdriver.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editdriver.php">
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+            <state relative-caret-position="240">
+              <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
               <folding>
-                <marker date="1460100569572" expanded="true" signature="732:922" placeholder="UPDATE drive... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editmanage.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editmanage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-              <folding>
-                <marker date="1460028591917" expanded="true" signature="705:825" placeholder="UPDATE manag... " />
-                <marker date="1460028591917" expanded="true" signature="705:877" placeholder="UPDATE manag... " />
-                <marker date="1460028591917" expanded="true" signature="912:1090" placeholder="UPDATE `indu... " />
+                <marker date="1460104683784" expanded="true" signature="1252:1499" placeholder="..." />
+                <marker date="1460104683784" expanded="true" signature="1320:1488" placeholder="..." />
+                <marker date="1460104683784" expanded="true" signature="1337:1473" placeholder="..." />
+                <marker date="1460104683784" expanded="true" signature="1550:2057" placeholder="..." />
+                <marker date="1460104683784" expanded="true" signature="1566:1828" placeholder="..." />
+                <marker date="1460104683784" expanded="true" signature="1579:1811" placeholder="..." />
+                <marker date="1460104683784" expanded="true" signature="1845:2057" placeholder="..." />
+                <marker date="1460104683784" expanded="true" signature="1930:1944" placeholder="Select * fro... item" />
+                <marker date="1460104683784" expanded="true" signature="1930:1950" placeholder="Select * fro... manage" />
               </folding>
             </state>
           </provider>
@@ -181,15 +187,15 @@
         <option value="$PROJECT_DIR$/editcar.php" />
         <option value="$PROJECT_DIR$/add_cars.php" />
         <option value="$PROJECT_DIR$/steer.php" />
-        <option value="$PROJECT_DIR$/users.php" />
-        <option value="$PROJECT_DIR$/home.php" />
-        <option value="$PROJECT_DIR$/cars.php" />
         <option value="$PROJECT_DIR$/add_manage.php" />
-        <option value="$PROJECT_DIR$/driver.php" />
         <option value="$PROJECT_DIR$/add_driver.php" />
         <option value="$PROJECT_DIR$/delete_driver.php" />
         <option value="$PROJECT_DIR$/editdriver.php" />
         <option value="$PROJECT_DIR$/edit_driver.php" />
+        <option value="$PROJECT_DIR$/users.php" />
+        <option value="$PROJECT_DIR$/cars.php" />
+        <option value="$PROJECT_DIR$/driver.php" />
+        <option value="$PROJECT_DIR$/home.php" />
       </list>
     </option>
   </component>
@@ -209,8 +215,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="76" />
-    <option name="y" value="32" />
+    <option name="x" value="94" />
+    <option name="y" value="38" />
     <option name="width" value="1238" />
     <option name="height" value="703" />
   </component>
@@ -363,7 +369,7 @@
       <workItem from="1459953461829" duration="967000" />
       <workItem from="1460004871569" duration="24905000" />
       <workItem from="1460033941467" duration="5770000" />
-      <workItem from="1460076510797" duration="22550000" />
+      <workItem from="1460076510797" duration="26666000" />
     </task>
     <task id="LOCAL-00001" summary="2014-04-04&#10;">
       <created>1459763660044</created>
@@ -456,11 +462,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460039391188</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="基础功能架构完成！&#10;">
+      <created>1460100785335</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1460100785335</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77495000" />
+    <option name="totallyTimeSpent" value="81611000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -472,20 +485,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="76" y="32" width="1238" height="703" extended-state="0" />
-    <editor active="true" />
+    <frame x="94" y="38" width="1238" height="703" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16862416" sideWeight="0.4924406" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16107382" sideWeight="0.4924406" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.4966443" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49298245" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761577" sideWeight="0.5033557" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17533557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18353345" sideWeight="0.46560404" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2161235" sideWeight="0.46560404" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761577" sideWeight="0.48238254" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16610739" sideWeight="0.5075594" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49298245" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -520,7 +533,8 @@
     <MESSAGE value="完成记录删除功能！&#10;" />
     <MESSAGE value="完成称重管理功能！&#10;" />
     <MESSAGE value="完成用户管理功能！&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成用户管理功能！&#10;" />
+    <MESSAGE value="基础功能架构完成！&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="基础功能架构完成！&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -815,37 +829,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-          <folding>
-            <marker date="1460090876760" expanded="true" signature="1662:1676" placeholder="Select * fro... item" />
-            <marker date="1460090876760" expanded="true" signature="1662:1682" placeholder="Select * fro... manage" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
-          <folding>
-            <marker date="1460090865932" expanded="true" signature="1608:1627" placeholder="Select * fro... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cars.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="86" column="7" selection-start-line="62" selection-start-column="0" selection-end-line="86" selection-end-column="7" />
-          <folding>
-            <marker date="1460090892348" expanded="true" signature="1658:1675" placeholder="Select * fro... car" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/add_users.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
@@ -898,12 +881,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/driver.php">
+    <entry file="file://$PROJECT_DIR$/edit_manage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="77" selection-end-column="65" />
+        <state relative-caret-position="-407">
+          <caret line="85" column="20" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="45" />
           <folding>
-            <marker date="1460095291264" expanded="true" signature="1708:1728" placeholder="Select * fro... driver" />
+            <marker date="1460035004985" expanded="true" signature="1356:1398" placeholder="Select * fro... manage" />
+            <marker date="1460035004985" expanded="true" signature="3023:3048" placeholder="SELECT user_... users" />
+            <marker date="1460035004985" expanded="true" signature="3106:3128" placeholder="SELECT carnu... car" />
+            <marker date="1460035004985" expanded="true" signature="3127:3128" placeholder="SELECT colle... collector" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editdriver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding>
+            <marker date="1460100569572" expanded="true" signature="732:922" placeholder="UPDATE drive... " />
           </folding>
         </state>
       </provider>
@@ -920,22 +916,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edit_manage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-407">
-          <caret line="85" column="20" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="45" />
-          <folding>
-            <marker date="1460035004985" expanded="true" signature="1356:1398" placeholder="Select * fro... manage" />
-            <marker date="1460035004985" expanded="true" signature="3023:3048" placeholder="SELECT user_... users" />
-            <marker date="1460035004985" expanded="true" signature="3106:3128" placeholder="SELECT carnu... car" />
-            <marker date="1460035004985" expanded="true" signature="3127:3128" placeholder="SELECT colle... collector" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/editmanage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="-135">
           <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding>
             <marker date="1460028591917" expanded="true" signature="705:825" placeholder="UPDATE manag... " />
@@ -945,25 +928,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/editdriver.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding>
-            <marker date="1460100569572" expanded="true" signature="732:922" placeholder="UPDATE drive... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/edit_driver.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+        <state relative-caret-position="315">
+          <caret line="99" column="95" selection-start-line="99" selection-start-column="79" selection-end-line="99" selection-end-column="95" />
           <folding>
             <marker date="1460100724468" expanded="true" signature="1381:1423" placeholder="Select * fro... driver" />
             <marker date="1460100724468" expanded="true" signature="2902:2924" placeholder="SELECT carnu... car" />
             <marker date="1460100724468" expanded="true" signature="4636:4728" placeholder="..." />
             <marker date="1460100724468" expanded="true" signature="5348:5457" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+          <folding>
+            <marker date="1460104306676" expanded="true" signature="1876:1895" placeholder="Select * fro... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding>
+            <marker date="1460104484120" expanded="true" signature="1924:1941" placeholder="Select * fro... car" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/driver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding>
+            <marker date="1460104602584" expanded="true" signature="1977:1997" placeholder="Select * fro... driver" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+          <folding>
+            <marker date="1460104683784" expanded="true" signature="1252:1499" placeholder="..." />
+            <marker date="1460104683784" expanded="true" signature="1320:1488" placeholder="..." />
+            <marker date="1460104683784" expanded="true" signature="1337:1473" placeholder="..." />
+            <marker date="1460104683784" expanded="true" signature="1550:2057" placeholder="..." />
+            <marker date="1460104683784" expanded="true" signature="1566:1828" placeholder="..." />
+            <marker date="1460104683784" expanded="true" signature="1579:1811" placeholder="..." />
+            <marker date="1460104683784" expanded="true" signature="1845:2057" placeholder="..." />
+            <marker date="1460104683784" expanded="true" signature="1930:1944" placeholder="Select * fro... item" />
+            <marker date="1460104683784" expanded="true" signature="1930:1950" placeholder="Select * fro... manage" />
           </folding>
         </state>
       </provider>
