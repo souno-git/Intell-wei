@@ -37,7 +37,7 @@ $car_query=mysql_query("SELECT carnum FROM car") or die ("Error Occurred");
     <form class="pure-form pure-form-aligned" action="addmanage.php" method="POST">
         <fieldset>
             <div class="pure-control-group">
-                <label for="user_id">账号</label>
+                <label for="user_id">管理账号</label>
                 <select name = "user_id">
                  <?php
                     while ($row=mysql_fetch_array($user_query)) {

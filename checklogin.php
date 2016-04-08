@@ -11,7 +11,7 @@ $password = $_POST["password"];
 
 require 'connect.inc.php'; //链接到数据库
 //$query = mysql_query("SELECT * from users WHERE username='$username'"); //如果输入用户名=数据库中用户名提取出对应数据
-$query = mysql_query("SELECT * from users WHERE username='$username'");
+$query = mysql_query("SELECT * from users WHERE user_id='$username'");
 $exists = mysql_num_rows($query); //检查用户是否存在
 $table_users = "";
 $table_password = "";
@@ -19,7 +19,7 @@ if($exists > 0) //如果没有返回或者用户不存在
 {
     while ($row = mysql_fetch_assoc($query)) //打印获取的数据
     {
-        $table_users = $row['username']; // 逐行对比所有相同的用户直到完成
+        $table_users = $row['user_id']; // 逐行对比所有相同的用户直到完成
         $table_password = $row['password'];
         $perm = $row['perm'];
 

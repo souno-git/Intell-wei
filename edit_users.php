@@ -35,7 +35,7 @@ $user = $_SESSION['user']; //assigns user value
         <thead>
         <tr>
             <th>账号</th>
-            <th>用户名</th>
+            <th>姓名</th>
             <th>密码</th>
             <th>权限</th>
             <th>删除</th>
@@ -86,7 +86,7 @@ $user = $_SESSION['user']; //assigns user value
                 ?>
             </div>
             <div class="pure-control-group">
-                <label for="username">用户名</label>
+                <label for="username">姓名</label>
                 <?php
                 echo '<input id="username" type="text" value="'.$username.'" name="username" required="required">';
                 ?>

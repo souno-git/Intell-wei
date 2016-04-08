@@ -109,7 +109,7 @@ $user = $_SESSION['user']; //assigns user value
                 ?>
             </div>
             <div class="pure-control-group">
-                <label for="user_id">账号</label>
+                <label for="user_id">管理账号</label>
                 <select name = "user_id">
                     <?php
                     while ($row=mysql_fetch_array($user_query)) {

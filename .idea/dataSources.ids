@@ -12,12 +12,11 @@
       <table id="3" parent="1" name="manage"/>
       <table id="4" parent="1" name="car"/>
       <table id="5" parent="1" name="driver"/>
-      <column id="6" parent="2" name="user_id">
+      <column id="6" parent="2" name="username">
         <mandatory>1</mandatory>
-        <data-type>int(10)</data-type>
-        <sequence-identity>1</sequence-identity>
+        <data-type>varchar(10)</data-type>
       </column>
-      <column id="7" parent="2" name="username">
+      <column id="7" parent="2" name="user_id">
         <mandatory>1</mandatory>
         <data-type>varchar(10)</data-type>
       </column>
@@ -40,7 +39,7 @@
       </column>
       <column id="12" parent="3" name="user_id">
         <mandatory>1</mandatory>
-        <data-type>int(10)</data-type>
+        <data-type>varchar(10)</data-type>
       </column>
       <column id="13" parent="3" name="carnum">
         <mandatory>1</mandatory>

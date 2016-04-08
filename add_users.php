@@ -32,8 +32,12 @@ $user = $_SESSION['user']; //assigns user value
         <form class="pure-form pure-form-aligned" action="add_users.php" method="POST">
             <fieldset>
                 <div class="pure-control-group">
-                    <label for="name">用户名</label>
-                    <input id="name" type="text" placeholder="用户名" name="username" required="required">
+                    <label for="user_id">账号</label>
+                    <input id="user_id" type="text" placeholder="账号" name="user_id" required="required">
+                </div>
+                <div class="pure-control-group">
+                    <label for="name">姓名</label>
+                    <input id="name" type="text" placeholder="姓名" name="username" required="required">
                 </div>
 
                 <div class="pure-control-group">
@@ -59,6 +63,7 @@ $user = $_SESSION['user']; //assigns user value
 
 <?php
 if($_SERVER["REQUEST_METHOD"] == "POST"){
+    $user_id = $_POST['user_id'];
     $username = $_POST['username'];
     $password = $_POST['password'];
     $perm = $_POST['perm'];
@@ -79,7 +84,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     if($bool) // checks if bool is true
     {
-        mysql_query("INSERT INTO users (username, password,perm) VALUES ('$username','$password','$perm');"); //在用户表中写入所有的数据
+        mysql_query("INSERT INTO users (user_id,username, password,perm) VALUES ('$user_id','$username','$password','$perm');"); //在用户表中写入所有的数据
         Print '<script>alert("Successfully add!");</script>'; // 提示用户
         Print '<script>window.location.assign("users.php");</script>'; // 重定向到register.php
     }

@@ -55,7 +55,7 @@ $user = $_SESSION['user']; //读取用户
         <thead>
         <tr>
             <th>账号</th>
-            <th>用户名</th>
+            <th>姓名</th>
             <th>密码</th>
             <th>权限</th>
             <th>编辑</th>

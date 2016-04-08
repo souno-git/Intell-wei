@@ -114,7 +114,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             $sql = "INSERT INTO car(carnum,model,photo,fload,pdtime,remarks)VALUES('$carnum','$model','$photo','$fload','$pdtime',NULL);";
             //echo $sql;
         }else{
-            $sql = "INSERT INTO car(carnum,model,photo,fload,pdtime,remarks)VALUES('$carnum','$model','$photo','$fload','$pdtime',$remarks);";
+            $sql = "INSERT INTO car(carnum,model,photo,fload,pdtime,remarks)VALUES('$carnum','$model','$photo','$fload','$pdtime','$remarks');";
         }
         mysql_query($sql);//在用户表中写入所有的数据
         Print '<script>alert("Successfully add!");</script>'; // 提示用户

@@ -50,7 +50,7 @@ $user = $_SESSION['user']; //读取用户
         <thead>
         <tr>
             <th>管理号</th>
-            <th>账号</th>
+            <th>管理账号</th>
             <th>车牌号</th>
             <th>类型</th>
             <th>净重</th>
