@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f424ec2b-7f43-404c-aa3e-aca5f561f700" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cars.php" afterPath="$PROJECT_DIR$/cars.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/driver.php" afterPath="$PROJECT_DIR$/driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.php" afterPath="$PROJECT_DIR$/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users.php" afterPath="$PROJECT_DIR$/users.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -124,7 +121,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -140,6 +137,16 @@
                 <marker date="1460104683784" expanded="true" signature="1930:1944" placeholder="Select * fro... item" />
                 <marker date="1460104683784" expanded="true" signature="1930:1950" placeholder="Select * fro... manage" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -196,6 +203,7 @@
         <option value="$PROJECT_DIR$/cars.php" />
         <option value="$PROJECT_DIR$/driver.php" />
         <option value="$PROJECT_DIR$/home.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -215,8 +223,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="94" />
-    <option name="y" value="38" />
+    <option name="x" value="74" />
+    <option name="y" value="43" />
     <option name="width" value="1238" />
     <option name="height" value="703" />
   </component>
@@ -369,7 +377,7 @@
       <workItem from="1459953461829" duration="967000" />
       <workItem from="1460004871569" duration="24905000" />
       <workItem from="1460033941467" duration="5770000" />
-      <workItem from="1460076510797" duration="26666000" />
+      <workItem from="1460076510797" duration="27190000" />
     </task>
     <task id="LOCAL-00001" summary="2014-04-04&#10;">
       <created>1459763660044</created>
@@ -469,11 +477,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460100785335</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="添加了搜索管理功能！&#10;">
+      <created>1460104985961</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1460104985961</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81611000" />
+    <option name="totallyTimeSpent" value="82135000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -485,8 +500,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="94" y="38" width="1238" height="703" extended-state="0" />
-    <editor active="false" />
+    <frame x="74" y="43" width="1238" height="703" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16107382" sideWeight="0.4924406" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.4966443" order="6" side_tool="false" content_ui="tabs" />
@@ -494,7 +509,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761577" sideWeight="0.5033557" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17533557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2161235" sideWeight="0.46560404" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2161235" sideWeight="0.46560404" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761577" sideWeight="0.48238254" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16610739" sideWeight="0.5075594" order="2" side_tool="true" content_ui="tabs" />
@@ -534,20 +549,14 @@
     <MESSAGE value="完成称重管理功能！&#10;" />
     <MESSAGE value="完成用户管理功能！&#10;" />
     <MESSAGE value="基础功能架构完成！&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="基础功能架构完成！&#10;" />
+    <MESSAGE value="添加了搜索管理功能！&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了搜索管理功能！&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/connect.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/databases-sql/数据库结构备份.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -986,6 +995,14 @@
             <marker date="1460104683784" expanded="true" signature="1930:1944" placeholder="Select * fro... item" />
             <marker date="1460104683784" expanded="true" signature="1930:1950" placeholder="Select * fro... manage" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
