@@ -59,6 +59,10 @@ $carnum_query=mysql_query("SELECT carnum FROM car") or die ("Error Occurred");
                 <input id="name" type="text" placeholder="姓名" name="name" required="required">
             </div>
             <div class="pure-control-group">
+                <label for="photo">照片</label>
+                <input id="photo" type="text" placeholder="请输入图片服务器地址" name="photo" required="required">
+            </div>
+            <div class="pure-control-group">
                 <label for="bday">出生日期</label>
                 <input id="bday" type="date" placeholder="出生日期" name="bday" required="required">
             </div>
@@ -68,7 +72,7 @@ $carnum_query=mysql_query("SELECT carnum FROM car") or die ("Error Occurred");
             </div>
             <div class="pure-control-group">
                 <label for="dkind">驾照类型</label>
-                <input id="dkind" type="text" placeholder="部门" name="dkind" required="required">
+                <input id="dkind" type="text" placeholder="驾照类型" name="dkind" required="required">
             </div>
             <div class="pure-control-group">
                 <label for="telnum">电话号码</label>
@@ -93,6 +97,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $dpassword = $_POST['dpassword'];
     $carnum = $_POST['carnum'];
     $name = $_POST['name'];
+    $photo = $_POST['photo'];
     $bday = $_POST['bday'];
     $dkind = $_POST['dkind'];
     $part = $_POST['part'];
@@ -114,7 +119,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     if($bool) // checks if bool is true
     {
-        $sql = "INSERT INTO driver (driver_id,dpassword,carnum,name,bday,dkind,part,telnum) VALUES ('$driver_id','$dpassword','$carnum','$name','$bday','$dkind','$part','$telnum');";
+        $sql = "INSERT INTO driver (driver_id,dpassword,carnum,name,photo,bday,dkind,part,telnum) VALUES ('$driver_id','$dpassword','$carnum','$name','$photo','$bday','$dkind','$part','$telnum');";
         //echo $sql;
         mysql_query($sql); //在用户表中写入所有的数据
         Print '<script>alert("Successfully add!");</script>'; // 提示用户

@@ -75,7 +75,7 @@ $duser = $_SESSION['duser']; //读取用户
         <tr>
             <th>车牌号</th>
             <th>车型</th>
-            <th>核定载重</th>
+            <th>自重</th>
             <th>生产日期</th>
         </tr>
         </thead>

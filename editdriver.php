@@ -19,11 +19,12 @@ if($_SERVER['REQUEST_METHOD'] == "POST") //如果页面被调用则添加！
     $dpasswrd = mysql_real_escape_string($_POST['dpassword']);
     $carnum = mysql_real_escape_string($_POST['carnum']);
     $name = mysql_real_escape_string($_POST['name']);
+    $photo = mysql_real_escape_string($_POST['photo']);
     $bday = mysql_real_escape_string($_POST['bday']);
     $dkind = mysql_real_escape_string($_POST['dkind']);
     $part = mysql_real_escape_string($_POST['part']);
     $telnum = mysql_real_escape_string($_POST['telnum']);
-    $sql = "UPDATE driver SET dpassword='$dpasswrd',carnum = '$carnum',name = '$name',
+    $sql = "UPDATE driver SET dpassword='$dpasswrd',carnum = '$carnum',name = '$name',photo = '$photo',
             bday = '$bday',dkind = '$dkind',part = '$part',telnum = '$telnum' WHERE driver.driver_id = '$driver_id'";
     echo $sql;
     $result = mysql_query($sql);

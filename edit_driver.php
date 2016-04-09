@@ -70,6 +70,7 @@ $user = $_SESSION['user']; //assigns user value
                     $dpassword=$row['dpassword'];
                     $carnum=$row['carnum'];
                     $name=$row['name'];
+                    $photo=$row['photo'];
                     $bday=$row['bday'];
                     $dkind =$row['dkind'];
                     $part=$row['part'];
@@ -120,6 +121,12 @@ $user = $_SESSION['user']; //assigns user value
                 <label for="name">姓名</label>
                 <?php
                 echo '<input id="name" type="text" value="'.$name.'" name="name" required="required>'
+                ?>
+            </div>
+            <div class="pure-control-group">
+                <label for="photo">照片</label>
+                <?php
+                echo '<input id="photo" type="text" value="'.$photo.'" name="photo" required="required">'
                 ?>
             </div>
             <div class="pure-control-group">
