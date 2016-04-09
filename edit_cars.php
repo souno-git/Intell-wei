@@ -62,7 +62,7 @@ if(!empty($_GET['id']))
             echo '<td align="center">'. $row['fload'] . "</td>";
             echo '<td align="center">'. $row['pdtime'] . "</td>";
             echo '<td align="center">'. $row['remarks'] . "</td>";
-            echo '<td align="center"> <a href="delete_users.php?id=' . $row['carnum'] . '"> 删除 </a></td>';
+            echo '<td align="center"> <a href="delete_cars.php?id=' . $row['carnum'] . '"> 删除 </a></td>';
             echo "</tr>";
             $carnum = $row['carnum'];
             $model = $row['model'];

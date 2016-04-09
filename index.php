@@ -3,9 +3,13 @@ session_start(); //启用session
 if($_SESSION['user']){
     header("location: admin.php");// 检查用户是否登录
 }
+if($_SESSION['duser']){
+    header("location: home.php");// 检查用户是否登录
+}
 else{
 }
 $user = $_SESSION['user']; //读取用户值
+$duser = $_SESSION['duser']; //读取用户值
 ?>
 <html lang="en">
 <?php

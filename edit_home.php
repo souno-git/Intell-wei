@@ -10,12 +10,12 @@ include "head.php";
 ?>
 <?php
 session_start(); //starts the session
-if($_SESSION['user']){ // checks if the user is logged in
+if($_SESSION['duser']){ // checks if the user is logged in
 }
 else{
     header("location: index.php"); // redirects if user is not logged in
 }
-$user = $_SESSION['user']; //assigns user value
+$duser = $_SESSION['duser']; //assigns user value
 ?>
 <body>
 <div class="container">
@@ -24,13 +24,13 @@ $user = $_SESSION['user']; //assigns user value
         <nav class="float-right">
             <div class="pure-menu pure-menu-open pure-menu-horizontal">
                 <ul>
-                    <li><a href="driver.php">返回</a></li>
+                    <li><a href="home.php">返回</a></li>
                     <li><a href="logout.php">退出登录</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-    <h2 align="center">司机编辑</h2>
+    <h2 align="center">个人信息修改</h2>
     <table class="pure-table pure-table-bordered">
         <thead>
         <tr>
@@ -41,30 +41,27 @@ $user = $_SESSION['user']; //assigns user value
             <th>驾照类型</th>
             <th>部门</th>
             <th>电话</th>
-            <th>删除</th>
         </tr>
         </thead>
         <tbody>
         <?php
-        if(!empty($_GET['id']))
-        {
-            $id = $_GET['id'];
+        if(!empty($duser)) {
+            $id = $duser;
             $_SESSION['id'] = $id;
             $id_exists = true;
             include "connect.inc.php";//连接到数据库
             $query = mysql_query("Select * from driver Where driver_id='$id'"); // SQL请求
             $count = mysql_num_rows($query);
-            if($count > 0) {
+            if ($count > 0) {
                 while ($row = mysql_fetch_array($query)) {
                     echo "<tr>";
-                    echo '<td align="center">'. $row['driver_id'] . "</td>";
-                    echo '<td align="center">'. $row['carnum'] . "</td>";
-                    echo '<td align="center">'. $row['name'] . "</td>";
-                    echo '<td align="center">'. $row['bday'] . "</td>";
-                    echo '<td align="center">'. $row['dkind'] . "</td>";
-                    echo '<td align="center">'. $row['part'] . "</td>";
-                    echo '<td align="center">'. $row['telnum'] . "</td>";
-                    echo '<td align="center"> <a href="delete_driver.php?id=' . $row['driver_id'] . '"> 删除 </a></td>';
+                    echo '<td align="center">' . $row['driver_id'] . "</td>";
+                    echo '<td align="center">' . $row['carnum'] . "</td>";
+                    echo '<td align="center">' . $row['name'] . "</td>";
+                    echo '<td align="center">' . $row['bday'] . "</td>";
+                    echo '<td align="center">' . $row['dkind'] . "</td>";
+                    echo '<td align="center">' . $row['part'] . "</td>";
+                    echo '<td align="center">' . $row['telnum'] . "</td>";
                     echo "</tr>";
                     $driver_id=$row['driver_id'];
                     $dpassword=$row['dpassword'];
@@ -75,12 +72,12 @@ $user = $_SESSION['user']; //assigns user value
                     $part=$row['part'];
                     $telnum=$row['telnum'];
                 }
+
             }
             else
             {
                 $id_exists = false;
             }
-
         }
         ?>
         </tbody>
@@ -95,7 +92,13 @@ $user = $_SESSION['user']; //assigns user value
             <div class="pure-control-group">
                 <label for="driver_id">驾驶证号</label>
                 <?php
-                echo '<input id="driver_id" type="text" value="'.$driver_id.'" name="driver_id">'
+                echo '<input readonly id="driver_id" type="text" value="'.$driver_id.'" name="driver_id">'
+                ?>
+            </div>
+            <div class="pure-control-group">
+                <label for="carnum">车牌号</label>
+                <?php
+                echo '<input readonly id="carnum" type="text" value="'.$carnum.'" name="carnum" required="required>'
                 ?>
             </div>
             <div class="pure-control-group">
@@ -103,18 +106,6 @@ $user = $_SESSION['user']; //assigns user value
                 <?php
                 echo '<input id="dpassword" type="text" value="'.$dpassword.'" name="dpassword">'
                 ?>
-            </div>
-            <div class="pure-control-group">
-                <label for="carnum">车牌号</label>
-                <select name = "carnum" required="required">
-                    <?php
-                    while ($row=mysql_fetch_array($carnum_query)) {
-                        $cdTitle=$row["carnum"];
-                        echo "<option value='$cdTitle'> $cdTitle </option>";
-                    }
-                    echo "<option selected='selected'> $carnum </option>";
-                    ?>
-                </select>
             </div>
             <div class="pure-control-group">
                 <label for="name">姓名</label>
@@ -137,7 +128,7 @@ $user = $_SESSION['user']; //assigns user value
             <div class="pure-control-group">
                 <label for="part">所属部门</label>
                 <?php
-                echo '<input id="part" type="text" value="'.$part.'" name="part">'
+                echo '<input readonly id="part" type="text" value="'.$part.'" name="part">'
                 ?>
             </div>
             <div class="pure-control-group">

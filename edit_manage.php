@@ -130,7 +130,6 @@ $user = $_SESSION['user']; //assigns user value
                     }
                     echo "<option selected='selected'> $carnum </option>";
                     ?>
-                    <option value=''>  </option>
                 </select>
             </div>
             <div class="pure-control-group">

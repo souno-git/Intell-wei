@@ -6,7 +6,7 @@
  * Time: 下午6:58
  */
 session_start();
-if($_SESSION['user']){
+if($_SESSION['user'] or $_SESSION['duser']){
 }
 else{
     header("location:index.php");
@@ -29,7 +29,12 @@ if($_SERVER['REQUEST_METHOD'] == "POST") //如果页面被调用则添加！
     $result = mysql_query($sql);
     if($result){
         //echo("succeded");
-        header("location: driver.php");
+        if($_SESSION['user']){
+            header("location: driver.php");
+        }if($_SESSION['duser']){
+            header("location: home.php");
+        }
+
     }
     else{
         die(mysql_error());
