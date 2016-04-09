@@ -25,9 +25,11 @@ $duser = $_SESSION['duser']; //读取用户
     </header>
     <br>
     <h2 align="center">您的信息</h2>
+
     <table class="pure-table pure-table-bordered">
         <thead>
         <tr>
+            <th>照片</th>
             <th>驾驶证号</th>
             <th>车牌号</th>
             <th>姓名</th>
@@ -50,6 +52,7 @@ $duser = $_SESSION['duser']; //读取用户
             if ($count > 0) {
                 while ($row = mysql_fetch_array($query)) {
                     echo "<tr>";
+                    echo '<td align="center">'.'<img height="80" width="56" src="img/'.$row['photo'].'"/>'.'</td>';
                     echo '<td align="center">' . $row['driver_id'] . "</td>";
                     echo '<td align="center">' . $row['carnum'] . "</td>";
                     echo '<td align="center">' . $row['name'] . "</td>";
