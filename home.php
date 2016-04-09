@@ -107,6 +107,13 @@ if(!empty($dcarnum)) {
 
     <br>
     <h2 align="center">记录列表</h2>
+    <nav class="float-right">
+        <div class="pure-menu pure-menu-open pure-menu-horizontal">
+            <ul>
+                <li><a href="down/d_home.php?id=">导出文件</a></li>
+            </ul>
+        </div>
+    </nav>
     <table class="pure-table pure-table-bordered">
         <thead>
         <tr>
