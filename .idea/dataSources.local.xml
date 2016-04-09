@@ -7,5 +7,11 @@
       <schema-pattern>qicheheng.*</schema-pattern>
       <default-schemas>qicheheng.*</default-schemas>
     </data-source>
+    <data-source name="MySQL - new@localhost" uuid="edaa3a77-7457-44e2-9c9b-8f482e058358">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>new.*</schema-pattern>
+      <default-schemas>new.*</default-schemas>
+    </data-source>
   </component>
 </project>

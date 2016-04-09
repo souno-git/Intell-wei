@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- 主机: localhost
--- 生成日期: 2016-04-08 20:02:43
+-- 生成日期: 2016-04-09 21:38:57
 -- 服务器版本: 5.5.47-0ubuntu0.14.04.1
 -- PHP 版本: 5.5.9-1ubuntu4.14
 
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- 数据库: `qicheheng`
+-- 数据库: `new`
 --
 
 -- --------------------------------------------------------
@@ -29,7 +29,6 @@ SET time_zone = "+00:00";
 CREATE TABLE IF NOT EXISTS `car` (
   `carnum` varchar(10) NOT NULL,
   `model` varchar(10) NOT NULL,
-  `photo` varchar(30) NOT NULL,
   `fload` int(10) NOT NULL,
   `pdtime` date NOT NULL,
   `remarks` text,
@@ -47,11 +46,13 @@ CREATE TABLE IF NOT EXISTS `driver` (
   `dpassword` varchar(20) NOT NULL,
   `carnum` varchar(10) NOT NULL,
   `name` varchar(10) NOT NULL,
+  `photo` text,
   `bday` date NOT NULL,
   `dkind` text NOT NULL,
   `part` text NOT NULL,
   `telnum` varchar(11) NOT NULL,
-  PRIMARY KEY (`driver_id`)
+  PRIMARY KEY (`driver_id`,`carnum`),
+  KEY `司机-车辆` (`carnum`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
@@ -69,20 +70,22 @@ CREATE TABLE IF NOT EXISTS `driver` (
 CREATE TABLE IF NOT EXISTS `manage` (
   `manage_id` int(11) NOT NULL AUTO_INCREMENT,
   `user_id` varchar(10) NOT NULL,
-  `carnum` varchar(10) CHARACTER SET utf8 NOT NULL,
-  `kind` varchar(10) NOT NULL,
+  `carnum` varchar(10) NOT NULL,
+  `kind` varchar(20) NOT NULL,
   `weight` int(10) NOT NULL,
   `time` datetime NOT NULL,
   `remarks` text,
-  PRIMARY KEY (`manage_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=15 ;
+  PRIMARY KEY (`manage_id`,`user_id`,`carnum`),
+  KEY `管理用户链接` (`user_id`),
+  KEY `车牌号用户链接` (`carnum`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=21 ;
 
 --
 -- 表的关联 `manage`:
---   `carnum`
---       `car` -> `carnum`
 --   `user_id`
 --       `users` -> `user_id`
+--   `carnum`
+--       `car` -> `carnum`
 --
 
 -- --------------------------------------------------------
@@ -98,6 +101,23 @@ CREATE TABLE IF NOT EXISTS `users` (
   `perm` int(1) NOT NULL,
   PRIMARY KEY (`user_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- 限制导出的表
+--
+
+--
+-- 限制表 `driver`
+--
+ALTER TABLE `driver`
+ADD CONSTRAINT `司机-车辆` FOREIGN KEY (`carnum`) REFERENCES `car` (`carnum`);
+
+--
+-- 限制表 `manage`
+--
+ALTER TABLE `manage`
+ADD CONSTRAINT `管理用户链接` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`),
+ADD CONSTRAINT `车牌号用户链接` FOREIGN KEY (`carnum`) REFERENCES `car` (`carnum`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
