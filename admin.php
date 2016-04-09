@@ -41,7 +41,7 @@ $user = $_SESSION['user']; //读取用户
     <nav class="float-right">
         <div class="pure-menu pure-menu-open pure-menu-horizontal">
             <ul>
-                <li><a href="add_manage.php">导出文件</a></li>
+                <li><a href="down/d_manage.php">导出文件</a></li>
                 <li><a href="add_manage.php">添加记录</a></li>
             </ul>
         </div>
@@ -49,7 +49,7 @@ $user = $_SESSION['user']; //读取用户
     <table class="pure-table pure-table-bordered">
         <thead>
         <tr>
-            <th>管理号</th>
+            <th>记录号</th>
             <th>管理账号</th>
             <th>车牌号</th>
             <th>类型</th>

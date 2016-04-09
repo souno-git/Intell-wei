@@ -46,6 +46,7 @@ $user = $_SESSION['user']; //读取用户
     <nav class="float-right">
         <div class="pure-menu pure-menu-open pure-menu-horizontal">
             <ul>
+                <li><a href="down/d_cars.php">导出文件</a></li>
                 <li><a href="add_cars.php">添加车辆</a></li>
             </ul>
         </div>
