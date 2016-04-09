@@ -43,12 +43,8 @@ $user = $_SESSION['user']; //assigns user value
                 <input id="model" type="text" placeholder="车型" name="model" required="required">
             </div>
             <div class="pure-control-group">
-                <label for="photo">照片</label>
-                <input id="photo" type="text" placeholder="照片" name="photo" required="required">
-            </div>
-            <div class="pure-control-group">
-                <label for="fload">核定载重</label>
-                <input id="fload" type="text" placeholder="核定载重" name="fload" required="required">
+                <label for="fload">自重</label>
+                <input id="fload" type="text" placeholder="自重" name="fload" required="required">
             </div>
             <div class="pure-control-group">
                 <label for="pdtime">出厂日期</label>
@@ -90,7 +86,6 @@ else{
 if($_SERVER["REQUEST_METHOD"] == "POST"){
     $carnum = $_POST['carnum'];
     $model = $_POST['model'];
-    $photo = $_POST['photo'];
     $fload = $_POST['fload'];
     $pdtime = $_POST['pdtime'];
     $remarks = $_POST['remarks'];
@@ -111,10 +106,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     if($bool) // checks if bool is true
     {
         if($remarks=='') {
-            $sql = "INSERT INTO car(carnum,model,photo,fload,pdtime,remarks)VALUES('$carnum','$model','$photo','$fload','$pdtime',NULL);";
+            $sql = "INSERT INTO car(carnum,model,fload,pdtime,remarks)VALUES('$carnum','$model','$fload','$pdtime',NULL);";
             //echo $sql;
         }else{
-            $sql = "INSERT INTO car(carnum,model,photo,fload,pdtime,remarks)VALUES('$carnum','$model','$photo','$fload','$pdtime','$remarks');";
+            $sql = "INSERT INTO car(carnum,model,fload,pdtime,remarks)VALUES('$carnum','$model','$fload','$pdtime','$remarks');";
         }
         mysql_query($sql);//在用户表中写入所有的数据
         Print '<script>alert("Successfully add!");</script>'; // 提示用户

@@ -17,11 +17,10 @@ if($_SERVER['REQUEST_METHOD'] == "POST") //如果页面被调用则添加！
     include 'connect.inc.php';
     $carnum = mysql_real_escape_string($_POST['carnum']);
     $model = mysql_real_escape_string($_POST['model']);
-    $photo = mysql_real_escape_string($_POST['photo']);
     $fload = mysql_real_escape_string($_POST['fload']);
     $pdtime = mysql_real_escape_string($_POST['pdtime']);
     $remarks = mysql_real_escape_string($_POST['remarks']);
-    $sql = "UPDATE car SET model = '$model',photo = '$photo',fload = '$fload',pdtime = '$pdtime',remarks = '$remarks'
+    $sql = "UPDATE car SET model = '$model',fload = '$fload',pdtime = '$pdtime',remarks = '$remarks'
             WHERE car.carnum = '$carnum'";
     echo $sql;
     $result = mysql_query($sql);

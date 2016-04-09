@@ -56,8 +56,7 @@ $user = $_SESSION['user']; //读取用户
         <tr>
             <th>车牌号</th>
             <th>车型</th>
-            <th>照片</th>
-            <th>核定载重</th>
+            <th>自重</th>
             <th>出厂时间</th>
             <th>备注</th>
             <th>编辑</th>
@@ -73,7 +72,6 @@ $user = $_SESSION['user']; //读取用户
             echo "<tr>";
             echo '<td align="center">'. $row['carnum'] . "</td>";
             echo '<td align="center">'. $row['model'] . "</td>";
-            echo '<td align="center">'. $row['photo'] . "</td>";
             echo '<td align="center">'. $row['fload'] . "</td>";
             echo '<td align="center">'. $row['pdtime'] . "</td>";
             echo '<td align="center">'. $row['remarks'] . "</td>";

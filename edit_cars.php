@@ -36,8 +36,7 @@ $user = $_SESSION['user']; //assigns user value
         <tr>
             <th>车牌号</th>
             <th>车型</th>
-            <th>照片</th>
-            <th>核定载重</th>
+            <th>自重</th>
             <th>生产日期</th>
             <th>备注</th>
             <th>删除</th>
@@ -57,8 +56,7 @@ if(!empty($_GET['id']))
         while ($row = mysql_fetch_array($query)) {
             echo "<tr>";
             echo '<td align="center">'. $row['carnum'] . "</td>";
-            echo '<td align="center">'. $row['model'] . "</td>";
-            echo '<td align="center">'. $row['photo'] . "</td>";
+            echo '<td align="center">'. $row['model'] . "</td>";;
             echo '<td align="center">'. $row['fload'] . "</td>";
             echo '<td align="center">'. $row['pdtime'] . "</td>";
             echo '<td align="center">'. $row['remarks'] . "</td>";
@@ -66,7 +64,6 @@ if(!empty($_GET['id']))
             echo "</tr>";
             $carnum = $row['carnum'];
             $model = $row['model'];
-            $photo = $row['photo'];
             $fload = $row['fload'];
             $pdtime = $row['pdtime'];
             $remarks = $row['remarks'];
@@ -97,15 +94,8 @@ if(!empty($_GET['id']))
                 echo '<input id="model" type="text" value="'.$model.'" name="model" required="required">';
                 ?>
             </div>
-
             <div class="pure-control-group">
-                <label for="photo">照片</label>
-                <?php
-                echo '<input id="photo" type="text" value="'.$photo.'" name="photo" required="required">';
-                ?>
-            </div>
-            <div class="pure-control-group">
-                <label for="fload">核定载重</label>
+                <label for="fload">自重</label>
                 <?php
                 echo '<input id="fload" type="text" value="'.$fload.'" name="fload" required="required">';
                 ?>
