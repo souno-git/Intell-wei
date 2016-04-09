@@ -44,8 +44,8 @@ $car_query=mysql_query("SELECT carnum FROM car") or die ("Error Occurred");
                         $cdTitle=$row["user_id"];
                         echo "<option value='$cdTitle'> $cdTitle </option>";
                     }
+                 echo "<option selected='selected'> $user </option>";
                   ?>
-                    <option value=''>  </option>
                 </select>
             </div>
             <div class="pure-control-group">
@@ -57,7 +57,6 @@ $car_query=mysql_query("SELECT carnum FROM car") or die ("Error Occurred");
                         echo "<option value='$cdTitle'> $cdTitle </option>";
                     }
                     ?>
-                    <option value=''>  </option>
                 </select>
             </div>
             <div class="pure-control-group">

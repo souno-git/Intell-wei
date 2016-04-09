@@ -52,7 +52,6 @@ $carnum_query=mysql_query("SELECT carnum FROM car") or die ("Error Occurred");
                     echo "<option value='$cdTitle'> $cdTitle </option>";
                 }
                 ?>
-                <option value=''>  </option>
             </select>
             </div>
             <div class="pure-control-group">

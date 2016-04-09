@@ -56,8 +56,8 @@ include "head.php";
     <table class="pure-table pure-table-bordered">
         <thead>
         <tr>
-            <th>管理号</th>
-            <th>账号</th>
+            <th>记录号</th>
+            <th>管理账号</th>
             <th>车牌号</th>
             <th>类型</th>
             <th>净重</th>

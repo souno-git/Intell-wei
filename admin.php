@@ -64,7 +64,7 @@ $user = $_SESSION['user']; //读取用户
         <tbody>
         <?php
         include "connect.inc.php";
-        $queryitem = mysql_query("Select * from manage");
+        $queryitem = mysql_query("Select * from manage order by manage_id desc");
         while($row = mysql_fetch_array($queryitem))
         {
             echo "<tr>";

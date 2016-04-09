@@ -114,10 +114,10 @@ $user = $_SESSION['user']; //assigns user value
                     <?php
                     while ($row=mysql_fetch_array($user_query)) {
                         $cdTitle=$row["user_id"];
-                        echo "<option value='$cdTitle' selected> $cdTitle </option>";
+                        echo "<option value='$cdTitle'> $cdTitle</option>";
                     }
+                    echo "<option selected='selected'> $user_id </option>";
                     ?>
-                    <option value=''>  </option>
                 </select>
             </div>
             <div class="pure-control-group">
@@ -128,6 +128,7 @@ $user = $_SESSION['user']; //assigns user value
                         $cdTitle=$row["carnum"];
                         echo "<option value='$cdTitle' selected> $cdTitle </option>";
                     }
+                    echo "<option selected='selected'> $carnum </option>";
                     ?>
                     <option value=''>  </option>
                 </select>

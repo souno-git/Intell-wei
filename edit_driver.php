@@ -112,8 +112,8 @@ $user = $_SESSION['user']; //assigns user value
                         $cdTitle=$row["carnum"];
                         echo "<option value='$cdTitle'> $cdTitle </option>";
                     }
+                    echo "<option selected='selected'> $carnum </option>";
                     ?>
-                    <option value=''>  </option>
                 </select>
             </div>
             <div class="pure-control-group">
