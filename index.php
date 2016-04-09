@@ -68,7 +68,7 @@ include "head.php";
 
         <tbody>
         <?php
-        $queryitem = mysql_query("Select * from manage");
+        $queryitem = mysql_query("Select * from manage order by manage_id desc");
         while($row = mysql_fetch_array($queryitem))
         {
             echo "<tr>";
