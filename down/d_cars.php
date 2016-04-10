@@ -12,7 +12,7 @@ $user = $_SESSION['user']; //注册用户值
         <tr>
             <th>车牌号</th>
             <th>车型</th>
-            <th>核定载重</th>
+            <th>自重</th>
             <th>出厂时间</th>
             <th>备注</th>
         </tr>
