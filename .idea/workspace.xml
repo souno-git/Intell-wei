@@ -3,25 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f424ec2b-7f43-404c-aa3e-aca5f561f700" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/add_cars.php" afterPath="$PROJECT_DIR$/add_cars.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/add_driver.php" afterPath="$PROJECT_DIR$/add_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/add_manage.php" afterPath="$PROJECT_DIR$/add_manage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/add_users.php" afterPath="$PROJECT_DIR$/add_users.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/delete_cars.php" afterPath="$PROJECT_DIR$/delete_cars.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/delete_driver.php" afterPath="$PROJECT_DIR$/delete_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/delete_manage.php" afterPath="$PROJECT_DIR$/delete_manage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/delete_users.php" afterPath="$PROJECT_DIR$/delete_users.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/connect.inc.php" afterPath="$PROJECT_DIR$/connect.inc.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/down/d_cars.php" afterPath="$PROJECT_DIR$/down/d_cars.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/down/d_driver.php" afterPath="$PROJECT_DIR$/down/d_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/down/d_home.php" afterPath="$PROJECT_DIR$/down/d_home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/down/d_manage.php" afterPath="$PROJECT_DIR$/down/d_manage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/down/d_users.php" afterPath="$PROJECT_DIR$/down/d_users.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_cars.php" afterPath="$PROJECT_DIR$/edit_cars.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_driver.php" afterPath="$PROJECT_DIR$/edit_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_home.php" afterPath="$PROJECT_DIR$/edit_home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_manage.php" afterPath="$PROJECT_DIR$/edit_manage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_users.php" afterPath="$PROJECT_DIR$/edit_users.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,19 +81,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="editmanage.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editmanage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-316">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-              <folding>
-                <marker date="1460109188172" expanded="true" signature="705:877" placeholder="UPDATE manag... " />
-                <marker date="1460109188172" expanded="true" signature="912:1090" placeholder="UPDATE manag... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -165,23 +135,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="users.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/users.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
+            <state relative-caret-position="1080">
               <caret line="72" column="66" selection-start-line="72" selection-start-column="66" selection-end-line="72" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editusers.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editusers.php">
+      <file leaf-file-name="数据库结构备份.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/databases-sql/数据库结构备份.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-122">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="-1293">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="d_cars.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/down/d_cars.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="29" column="64" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
               <folding>
-                <marker date="1460109188204" expanded="true" signature="530:652" placeholder="UPDATE users... " />
+                <marker date="1460274433329" expanded="true" signature="609:626" placeholder="Select * fro... car" />
               </folding>
             </state>
           </provider>
@@ -254,7 +234,6 @@
         <option value="$PROJECT_DIR$/editdriver.php" />
         <option value="$PROJECT_DIR$/home.php" />
         <option value="$PROJECT_DIR$/databases-sql/数据库结构备份.sql" />
-        <option value="$PROJECT_DIR$/down/d_cars.php" />
         <option value="$PROJECT_DIR$/down/d_driver.php" />
         <option value="$PROJECT_DIR$/down/d_home.php" />
         <option value="$PROJECT_DIR$/down/d_manage.php" />
@@ -273,6 +252,7 @@
         <option value="$PROJECT_DIR$/edit_manage.php" />
         <option value="$PROJECT_DIR$/edit_users.php" />
         <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/down/d_cars.php" />
       </list>
     </option>
   </component>
@@ -292,8 +272,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="130" />
-    <option name="y" value="50" />
+    <option name="x" value="84" />
+    <option name="y" value="30" />
     <option name="width" value="1236" />
     <option name="height" value="703" />
   </component>
@@ -354,24 +334,69 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Changed Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            <PATH_ELEMENT USER_OBJECT="test">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            <PATH_ELEMENT USER_OBJECT=".idea">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="test">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="test">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="databases-sql">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="test">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Tests" />
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="Scratches">
+        <subPane />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -478,7 +503,7 @@
       <workItem from="1460125291043" duration="640000" />
       <workItem from="1460168873715" duration="25729000" />
       <workItem from="1460207776002" duration="1512000" />
-      <workItem from="1460253881714" duration="2270000" />
+      <workItem from="1460253881714" duration="5182000" />
     </task>
     <task id="LOCAL-00001" summary="2014-04-04&#10;">
       <created>1459763660044</created>
@@ -683,11 +708,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460209236079</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="注释加强！">
+      <created>1460260685509</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1460260685509</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125450000" />
+    <option name="totallyTimeSpent" value="128362000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -699,19 +731,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="130" y="50" width="1236" height="703" extended-state="0" />
+    <frame x="84" y="30" width="1236" height="703" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17142858" sideWeight="0.4924406" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.4966443" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49298245" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761577" sideWeight="0.5033557" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17563026" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21575342" sideWeight="0.46560404" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2161235" sideWeight="0.46560404" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761577" sideWeight="0.48238254" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16610739" sideWeight="0.5075594" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49298245" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -735,7 +767,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2014-04-04&#10;" />
     <MESSAGE value="主页更新！" />
     <MESSAGE value="文件添加更新！" />
     <MESSAGE value="2014-04-05&#10;" />
@@ -760,7 +791,8 @@
     <MESSAGE value="添加司机照片功能！" />
     <MESSAGE value="添加司机照片功能！2016-04-09" />
     <MESSAGE value="数据库结构更新！2016-04-09" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据库结构更新！2016-04-09" />
+    <MESSAGE value="注释加强！" />
+    <option name="LAST_COMMIT_MESSAGE" value="注释加强！" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -850,14 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/databases-sql/数据库结构备份.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/minimal.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -871,16 +895,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/down/d_cars.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <marker date="1460259441665" expanded="true" signature="633:650" placeholder="Select * fro... car" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1249,9 +1263,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/users.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
+        <state relative-caret-position="1080">
           <caret line="72" column="66" selection-start-line="72" selection-start-column="66" selection-end-line="72" selection-end-column="66" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/databases-sql/数据库结构备份.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1293">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/down/d_cars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="29" column="64" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
+          <folding>
+            <marker date="1460274433329" expanded="true" signature="609:626" placeholder="Select * fro... car" />
+          </folding>
         </state>
       </provider>
     </entry>
