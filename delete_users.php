@@ -13,7 +13,7 @@ else {
 }
 if($_SERVER['REQUEST_METHOD'] == "GET")
 {
-    include 'connect.inc.php'; //Connect to database
+    include 'connect.inc.php'; //连接到数据库
     $id = $_GET['id'];
     $sql_query="DELETE FROM users WHERE user_id='$id'";
     // $result1=mysql_query($sql_query1);

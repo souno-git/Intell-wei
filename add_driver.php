@@ -7,13 +7,13 @@
  * Time: 下午8:57
  */
 include "head.php";
-session_start(); //starts the session
-if($_SESSION['user']){ // checks if the user is logged in
+session_start(); //启用session
+if($_SESSION['user']){ // 检查用户是否登录
 }
 else{
-    header("location: index.php"); // redirects if user is not logged in
+    header("location: index.php"); // 未登录则定向到主页
 }
-$user = $_SESSION['user']; //assigns user value
+$user = $_SESSION['user']; //注册用户值
 require "connect.inc.php";
 $carnum_query=mysql_query("SELECT carnum FROM car") or die ("Error Occurred");
 ?>

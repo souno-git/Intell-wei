@@ -1,11 +1,11 @@
 <?php
-session_start(); //starts the session
-if($_SESSION['duser']){ // checks if the user is logged in
+session_start(); //启用session
+if($_SESSION['duser']){ // 检查用户是否登录
 }
 else{
-    header("location: index.php"); // redirects if user is not logged in
+    header("location: index.php"); // 未登录则定向到主页
 }
-$duser = $_SESSION['duser']; //assigns user value
+$duser = $_SESSION['duser']; //注册用户值
 ?>
 <table class="pure-table pure-table-bordered">
     <thead>
