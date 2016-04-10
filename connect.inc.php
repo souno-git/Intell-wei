@@ -12,6 +12,7 @@ $mysql_pass = '1004426187';
 $mysql_db = 'qicheheng';
 $link = mysql_connect($mysql_host, $mysql_user, $mysql_pass);
 mysql_select_db($mysql_db,$link);
+mysql_query("SET NAMES utf8"); 
 ?>
 
 
