@@ -7,7 +7,7 @@ else{
 }
 $user = $_SESSION['user']; //注册用户值
 ?>
-<table class="pure-table pure-table-bordered">
+<table border="1" class="pure-table pure-table-bordered">
     <thead>
     <tr>
         <th>账号</th>
