@@ -77,7 +77,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         if($username == $table_users) // 检测用户是否存在
         {
             $bool = false; // sets bool to false
-            Print '<script>alert("Username has been haven!");</script>'; //提示用户存在
+            Print '<script charset="utf-8">alert("用户名已存在！");</script>'; //提示用户存在
             Print '<script>window.location.assign("add_users.php");</script>'; // 重定向注册页面
         }
     }

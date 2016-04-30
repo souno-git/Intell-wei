@@ -112,7 +112,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         if($driver_id == $table_users) // 检测用户是否存在
         {
             $bool = false; // sets bool to false
-            Print '<script>alert("Driver has been haven!");</script>'; //提示用户存在
+            Print '<script charset="utf-8">alert("司机已存在！");</script>'; //提示用户存在
             Print '<script>window.location.assign("add_driver.php");</script>'; // 重定向注册页面
         }
     }
@@ -122,7 +122,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         $sql = "INSERT INTO driver (driver_id,dpassword,carnum,name,photo,bday,dkind,part,telnum) VALUES ('$driver_id','$dpassword','$carnum','$name','$photo','$bday','$dkind','$part','$telnum');";
         //echo $sql;
         mysql_query($sql); //在用户表中写入所有的数据
-        Print '<script>alert("Successfully add!");</script>'; // 提示用户
+        Print '<script charset="utf-8">alert("添加成功！");</script>'; // 提示用户
         Print '<script>window.location.assign("driver.php");</script>'; // 重定向到register.php
     }
 

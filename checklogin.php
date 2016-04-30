@@ -8,7 +8,7 @@
 session_start();
 $username = $_POST["username"];
 $password = $_POST["password"];
-
+include "head.php";
 require 'connect.inc.php'; //链接到数据库
 //$query = mysql_query("SELECT * from users WHERE username='$username'"); //如果输入用户名=数据库中用户名提取出对应数据
 $query = mysql_query("SELECT * from users WHERE user_id='$username'");
@@ -38,14 +38,14 @@ if($exists > 0) //如果没有返回或者用户不存在
        }
        else
        {
-           Print '<script charset="utf-8" >alert("INCORRECT PASSWORD!");</script>'; //提示用户
+           Print '<script charset="utf-8" >alert("密码错误！");</script>'; //提示用户
            Print '<script type=>window.location.assign("login.php");</script>'; // 重定向到 login.php
        }
 
    }
    else
    {
-       Print '<script charset="utf-8" >alert("INCORRECT USERNAME!");</script>';
+       Print '<script charset="utf-8" >alert("用户名错误！");</script>';
        Print '<script type=>window.location.assign("login.php");</script>';
    }
 

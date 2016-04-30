@@ -48,7 +48,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         if($username == $table_users) // 减产用户是否存在
         {
             $bool = false; // sets bool to false
-            Print '<script>alert("Username has been taken!");</script>'; //提示用户存在
+            Print '<script charset="utf-8">alert("用户名已存在！");</script>'; //提示用户存在
             Print '<script>window.location.assign("register.php");</script>'; // 重定向注册页面
         }
     }
@@ -56,8 +56,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     if($bool) // checks if bool is true
     {
         mysql_query("INSERT INTO users (username, password) VALUES ('$username','$password')"); //在用户表中写入所有的数据
-        Print '<script>alert("Successfully Registered!");</script>'; // 提示用户
-        Print '<script>window.location.assign("register.php");</script>'; // 重定向到register.php
+        Print '<script charset="utf-8">alert("注册成功！");</script>'; // 提示用户
+        Print '<script>window.location.assign("index.php");</script>'; // 重定向到register.php
     }
 
 }

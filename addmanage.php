@@ -34,19 +34,19 @@ if($_SERVER['REQUEST_METHOD'] == "POST") //如果页面被调用则添加！
     $result_manage = mysql_query($sql_manage);
     $manage_id=mysql_insert_id();
     if($manage_id){
-        echo("succeded");
+        Print '<script charset="utf-8">alert("添加记录成功！");</script>'; //提示用户
         header("location: admin.php");
     }
     else{
-        echo("failed");
+        echo("失败！");
         die(mysql_error());
-        Print '<script>alert("Error Occured");</script>'; //提示用户！
+        Print '<script charset="utf-8">alert("数据库错误！");</script>'; //提示用户！
         Print '<script>window.location.assign("add_item.php");</script>';
     }
 }
 else
 {
-    Print '<script>alert("Error Occured");</script>'; //提示用户
+    Print '<script charset="utf-8">alert("数据库错误！");</script>'; //提示用户
     Print '<script>window.location.assign("add_item.php");</script>'; // 重定向 login.php
 }
 

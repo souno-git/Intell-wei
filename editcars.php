@@ -30,7 +30,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST") //如果页面被调用则添加！
     }
     else{
         die(mysql_error());
-        Print '<script>alert("Error Occured");</script>'; //提示用户
+        Print '<script charset="utf-8">alert("修改错误！");</script>'; //提示用户
         //Print '<script>window.location.assign("admin.php");</script>';
     }
     //header("location: admin.php");*/

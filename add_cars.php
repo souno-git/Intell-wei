@@ -98,7 +98,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         if($carnum == $table_car) // 检测车辆是否存在
         {
             $bool = false; // sets bool to false
-            Print '<script>alert("Carnum has been haven!");</script>'; //提示用户存在
+            Print '<script charset="utf-8">alert("车牌号已存在！请直接搜索车牌号修改。");</script>'; //提示用户存在
             Print '<script>window.location.assign("add_cars.php");</script>'; // 重定向注册页面
         }
     }
@@ -112,7 +112,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             $sql = "INSERT INTO car(carnum,model,fload,pdtime,remarks)VALUES('$carnum','$model','$fload','$pdtime','$remarks');";
         }
         mysql_query($sql);//在用户表中写入所有的数据
-        Print '<script>alert("Successfully add!");</script>'; // 提示用户
+        Print '<script charset="utf-8">alert("添加成功！");</script>'; // 提示用户
         Print '<script>window.location.assign("cars.php");</script>'; // 重定向到car.php
     }
 
