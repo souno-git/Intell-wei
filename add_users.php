@@ -85,7 +85,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     if($bool) // checks if bool is true
     {
         mysql_query("INSERT INTO users (user_id,username, password,perm) VALUES ('$user_id','$username','$password','$perm');"); //在用户表中写入所有的数据
-        Print '<script>alert("Successfully add!");</script>'; // 提示用户
+        Print '<script charset="utf-8">alert("添加成功！");</script>'; // 提示用户
         Print '<script>window.location.assign("users.php");</script>'; // 重定向到register.php
     }
 
