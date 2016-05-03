@@ -22,6 +22,7 @@ include "head.php";
         <nav class="float-right">
             <div class="pure-menu pure-menu-open pure-menu-horizontal">
                 <ul>
+                    <li><a href="search.php">条件查询</a></li>
                     <li><a href="dlogin.php">司机登录</a></li>
                     <li><a href="login.php">管理登录</a></li>
                 </ul>
@@ -29,7 +30,6 @@ include "head.php";
         </nav>
     </header>
     <h2 align="center">当前统计信息</h2>
-
     <table class="pure-table pure-table-bordered">
         <thead>
         <tr>

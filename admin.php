@@ -40,7 +40,7 @@ $user = $_SESSION['user']; //读取用户
     </form>
     <nav class="float-right">
         <div class="pure-menu pure-menu-open pure-menu-horizontal">
-            <ul>
+            <ul><li><a href="search.php">条件查询</a></li>
                 <li><a href="down/d_manage.php">导出文件</a></li>
                 <li><a href="add_manage.php">添加记录</a></li>
             </ul>

@@ -13,5 +13,9 @@
       <schema-pattern>new.*</schema-pattern>
       <default-schemas>new.*</default-schemas>
     </data-source>
+    <data-source name="MySQL - qicheheng@vps.dieling.cc" uuid="3d10d6ea-b3b4-4e0b-a5fc-c14f8d61bf54">
+      <secret-storage>master_key</secret-storage>
+      <user-name>test</user-name>
+    </data-source>
   </component>
 </project>
