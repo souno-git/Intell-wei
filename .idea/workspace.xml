@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f424ec2b-7f43-404c-aa3e-aca5f561f700" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/pure-css.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin.php" afterPath="$PROJECT_DIR$/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cars.php" afterPath="$PROJECT_DIR$/cars.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/driver.php" afterPath="$PROJECT_DIR$/driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_cars.php" afterPath="$PROJECT_DIR$/edit_cars.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_driver.php" afterPath="$PROJECT_DIR$/edit_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_home.php" afterPath="$PROJECT_DIR$/edit_home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_manage.php" afterPath="$PROJECT_DIR$/edit_manage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_users.php" afterPath="$PROJECT_DIR$/edit_users.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/head.php" afterPath="$PROJECT_DIR$/head.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.php" afterPath="$PROJECT_DIR$/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search.php" afterPath="$PROJECT_DIR$/search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users.php" afterPath="$PROJECT_DIR$/users.php" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -184,19 +171,21 @@
       <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+            <state relative-caret-position="270">
+              <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
               <folding>
-                <marker date="1462419828288" expanded="true" signature="1063:1105" placeholder="Select * fro... driver" />
-                <marker date="1462419828288" expanded="true" signature="1669:1859" placeholder="..." />
-                <marker date="1462419828288" expanded="true" signature="1888:2081" placeholder="..." />
-                <marker date="1462419828288" expanded="true" signature="2110:2195" placeholder="..." />
-                <marker date="1462419828288" expanded="true" signature="2297:2337" placeholder="Select * fro... car" />
-                <marker date="1462419828288" expanded="true" signature="2470:2582" placeholder="..." />
-                <marker date="1462419828288" expanded="true" signature="2611:2808" placeholder="..." />
-                <marker date="1462419828288" expanded="true" signature="3620:3668" placeholder="..." />
-                <marker date="1462419828288" expanded="true" signature="3670:3737" placeholder="Select * fro... manage" />
-                <marker date="1462419828288" expanded="true" signature="3824:3844" placeholder="..." />
+                <marker date="1462421419436" expanded="true" signature="1063:1105" placeholder="Select * fro... driver" />
+                <marker date="1462421419436" expanded="true" signature="1669:1859" placeholder="..." />
+                <marker date="1462421419436" expanded="true" signature="1888:2081" placeholder="..." />
+                <marker date="1462421419436" expanded="true" signature="2110:2195" placeholder="..." />
+                <marker date="1462421419436" expanded="true" signature="2297:2337" placeholder="Select * fro... car" />
+                <marker date="1462421419436" expanded="true" signature="2470:2582" placeholder="..." />
+                <marker date="1462421419436" expanded="true" signature="2611:2808" placeholder="..." />
+                <marker date="1462421419436" expanded="true" signature="2884:2912" placeholder="..." />
+                <marker date="1462421419436" expanded="true" signature="2937:2948" placeholder="..." />
+                <marker date="1462421419436" expanded="true" signature="3676:3724" placeholder="..." />
+                <marker date="1462421419436" expanded="true" signature="3726:3793" placeholder="Select * fro... manage" />
+                <marker date="1462421419436" expanded="true" signature="3880:3900" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -313,8 +302,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="79" />
-    <option name="y" value="49" />
+    <option name="x" value="183" />
+    <option name="y" value="58" />
     <option name="width" value="1236" />
     <option name="height" value="703" />
   </component>
@@ -552,7 +541,7 @@
       <workItem from="1462015957431" duration="1407000" />
       <workItem from="1462269687451" duration="8823000" />
       <workItem from="1462331325741" duration="38000" />
-      <workItem from="1462409236500" duration="10467000" />
+      <workItem from="1462409236500" duration="12013000" />
     </task>
     <task id="LOCAL-00001" summary="2014-04-04&#10;">
       <created>1459763660044</created>
@@ -806,11 +795,18 @@
       <option name="project" value="LOCAL" />
       <updated>1462278383993</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="界面配色优化和司机主页优化！">
+      <created>1462419913308</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1462419913308</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153326000" />
+    <option name="totallyTimeSpent" value="154872000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -822,11 +818,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="79" y="49" width="1236" height="703" extended-state="0" />
+    <frame x="183" y="58" width="1236" height="703" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19411765" sideWeight="0.4924406" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.4966443" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49298245" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761577" sideWeight="0.5033557" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17478992" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2161235" sideWeight="0.46560404" order="9" side_tool="false" content_ui="tabs" />
@@ -834,7 +831,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761577" sideWeight="0.48238254" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16610739" sideWeight="0.5075594" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49298245" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -858,7 +854,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2014-04-05&#10;home++++++&#10;" />
     <MESSAGE value="代码添加注释！&#10;" />
     <MESSAGE value="完成记录添加功能！&#10;" />
     <MESSAGE value="完成记录删除功能！&#10;" />
@@ -883,7 +878,8 @@
     <MESSAGE value="导出文件列表框修复！" />
     <MESSAGE value="alert中文乱码修复！" />
     <MESSAGE value="条件查询功能添加！" />
-    <option name="LAST_COMMIT_MESSAGE" value="条件查询功能添加！" />
+    <MESSAGE value="界面配色优化和司机主页优化！" />
+    <option name="LAST_COMMIT_MESSAGE" value="界面配色优化和司机主页优化！" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1302,19 +1298,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        <state relative-caret-position="270">
+          <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
           <folding>
-            <marker date="1462419828288" expanded="true" signature="1063:1105" placeholder="Select * fro... driver" />
-            <marker date="1462419828288" expanded="true" signature="1669:1859" placeholder="..." />
-            <marker date="1462419828288" expanded="true" signature="1888:2081" placeholder="..." />
-            <marker date="1462419828288" expanded="true" signature="2110:2195" placeholder="..." />
-            <marker date="1462419828288" expanded="true" signature="2297:2337" placeholder="Select * fro... car" />
-            <marker date="1462419828288" expanded="true" signature="2470:2582" placeholder="..." />
-            <marker date="1462419828288" expanded="true" signature="2611:2808" placeholder="..." />
-            <marker date="1462419828288" expanded="true" signature="3620:3668" placeholder="..." />
-            <marker date="1462419828288" expanded="true" signature="3670:3737" placeholder="Select * fro... manage" />
-            <marker date="1462419828288" expanded="true" signature="3824:3844" placeholder="..." />
+            <marker date="1462421419436" expanded="true" signature="1063:1105" placeholder="Select * fro... driver" />
+            <marker date="1462421419436" expanded="true" signature="1669:1859" placeholder="..." />
+            <marker date="1462421419436" expanded="true" signature="1888:2081" placeholder="..." />
+            <marker date="1462421419436" expanded="true" signature="2110:2195" placeholder="..." />
+            <marker date="1462421419436" expanded="true" signature="2297:2337" placeholder="Select * fro... car" />
+            <marker date="1462421419436" expanded="true" signature="2470:2582" placeholder="..." />
+            <marker date="1462421419436" expanded="true" signature="2611:2808" placeholder="..." />
+            <marker date="1462421419436" expanded="true" signature="2884:2912" placeholder="..." />
+            <marker date="1462421419436" expanded="true" signature="2937:2948" placeholder="..." />
+            <marker date="1462421419436" expanded="true" signature="3676:3724" placeholder="..." />
+            <marker date="1462421419436" expanded="true" signature="3726:3793" placeholder="Select * fro... manage" />
+            <marker date="1462421419436" expanded="true" signature="3880:3900" placeholder="..." />
           </folding>
         </state>
       </provider>
