@@ -31,6 +31,7 @@ $user = $_SESSION['user']; //注册用户值
         </nav>
     </header>
     <h2 align="center">用户编辑</h2>
+    <div class="pure-skin-shenya">
     <table class="pure-table pure-table-bordered">
         <thead>
         <tr>
@@ -75,6 +76,7 @@ $user = $_SESSION['user']; //注册用户值
         ?>
         </tbody>
     </table>
+        </div>
     <br>
     <br>
     <form class="pure-form pure-form-aligned" action="editusers.php" method="POST">

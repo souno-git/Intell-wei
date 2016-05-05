@@ -66,7 +66,8 @@ $car_query=mysql_query("SELECT carnum FROM car") or die ("Error Occurred");
 </form>
 </div>
             <br>
-            <table class="pure-table pure-table-bordered">
+            <div class="pure-skin-shenya">
+            <table class="pure-table pure-table-bordered pure-table-striped">
                 <thead>
                 <tr>
                     <th>管理号</th>
@@ -108,6 +109,7 @@ $car_query=mysql_query("SELECT carnum FROM car") or die ("Error Occurred");
                 ?>
                 </tbody>
             </table>
+                </div>
             <?php
             include "footer.php";
             ?>

@@ -31,6 +31,7 @@ $user = $_SESSION['user']; //注册用户值
         </nav>
     </header>
     <h2 align="center">司机编辑</h2>
+    <div class="pure-skin-shenya">
     <table class="pure-table pure-table-bordered">
         <thead>
         <tr>
@@ -86,6 +87,7 @@ $user = $_SESSION['user']; //注册用户值
         ?>
         </tbody>
     </table>
+        </div>
     <?php
     $carnum_query=mysql_query("SELECT carnum FROM car") or die ("Error Occurred");
     ?>

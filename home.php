@@ -24,92 +24,64 @@ $duser = $_SESSION['duser']; //读取用户
         </nav>
     </header>
     <br>
-    <h2 align="center">您的信息</h2>
-
+    <h2 align="center">司机主页</h2>
+    <div class="pure-skin-shenya">
     <table class="pure-table pure-table-bordered">
         <thead>
         <tr>
-            <th>照片</th>
-            <th>驾驶证号</th>
-            <th>车牌号</th>
-            <th>姓名</th>
-            <th>生日</th>
-            <th>驾照类型</th>
-            <th>部门</th>
-            <th>电话</th>
-            <th>修改</th>
+            <th align="center">照片</th>
+            <th align="center" colspan="4">信息</th>
         </tr>
         </thead>
         <tbody>
         <?php
         if(!empty($duser)) {
-            $id = $duser;
-            $_SESSION['id'] = $id;
-            $id_exists = true;
-            include "connect.inc.php";//连接到数据库
-            $query = mysql_query("Select * from driver Where driver_id='$id'"); // SQL请求
-            $count = mysql_num_rows($query);
-            if ($count > 0) {
-                while ($row = mysql_fetch_array($query)) {
-                    echo "<tr>";
-                    echo '<td align="center">'.'<img height="80" width="56" src="img/'.$row['photo'].'"/>'.'</td>';
-                    echo '<td align="center">' . $row['driver_id'] . "</td>";
-                    echo '<td align="center">' . $row['carnum'] . "</td>";
-                    echo '<td align="center">' . $row['name'] . "</td>";
-                    echo '<td align="center">' . $row['bday'] . "</td>";
-                    echo '<td align="center">' . $row['dkind'] . "</td>";
-                    echo '<td align="center">' . $row['part'] . "</td>";
-                    echo '<td align="center">' . $row['telnum'] . "</td>";
-                    echo '<td align="center"> <a href="edit_home.php?id=' . $row['driver_id'] . '"> 修改 </a></td>';
-                    echo "</tr>";
-                    $dcarnum = $row['carnum'];
-
-                }
+        $id = $duser;
+        $_SESSION['id'] = $id;
+        $id_exists = true;
+        include "connect.inc.php";//连接到数据库
+          $driver_query = mysql_query("Select * from driver Where driver_id='$id'"); // SQL请求
+          $count = mysql_num_rows($driver_query);
+          if ($count > 0) {
+             while ($row = mysql_fetch_array($driver_query)) {
+                echo "<tr>";
+                echo '<td rowspan="6" align="center">' . '<p align="center"><img height="175" width="130" src="img/' . $row['photo'] . '"/></p>' . '</td>';
+                echo '<td>驾驶证号</td><td align="center">' . $row['driver_id'] . "</td>";
+                echo '<td>车牌号</td><td align="center">' . $row['carnum'] . "</td>";
+                echo "</tr>";
+                echo "<tr>";
+                echo '<td>姓名</td><td align="center">' . $row['name'] . "</td>";
+                echo '<td>生日</td><td align="center">' . $row['bday'] . "</td>";
+                echo "</tr>";
+                echo "<tr>";
+                echo '<td>驾照类型</td><td align="center">' . $row['dkind'] . "</td>";
+                echo '<td>部门</td><td align="center">' . $row['part'] . "</td>";
+                echo "</tr>";
+                echo "<tr>";
+                echo '<td>电话</td><td align="center">' . $row['telnum'] . "</td>";
+                $car_id = $row['carnum'];
             }
+
+        }
+        $car_query = mysql_query("Select * from car Where carnum='$car_id'");
+        $count = mysql_num_rows($car_query);
+        if ($count > 0) {
+            while ($row = mysql_fetch_array($car_query)) {
+                echo '<td > 车型</td ><td align="center">' . $row['model'] . "</td>";;
+                echo "</tr>";
+                echo "<tr>";
+                echo '<td>车辆自重</td><td align="center">' . $row['fload'] . "</td>";
+                echo '<td>出厂日期</td><td align="center">' . $row['pdtime'] . "</td>";
+                echo "</tr>";
+                }
+        }
+            echo '<th align="center" colspan="4"> <a href="edit_home.php?id=' . $row['driver_id'] . '"> 修改 </a></th>';
         }
         ?>
-        </tbody>
     </table>
+    </div>
     <br>
-    <h2 align="center">关联车辆</h2>
-
-    <table class="pure-table pure-table-bordered">
-        <thead>
-        <tr>
-            <th>车牌号</th>
-            <th>车型</th>
-            <th>自重</th>
-            <th>生产日期</th>
-        </tr>
-        </thead>
-        <tbody>
-<?php
-if(!empty($dcarnum)) {
-    $id = $dcarnum;
-    $id_exists = true;
-    include "connect.inc.php";//连接到数据库
-    $query = mysql_query("Select * from car Where carnum='$id'"); // SQL请求
-    $count = mysql_num_rows($query);
-    if ($count > 0) {
-        while ($row = mysql_fetch_array($query)) {
-            echo "<tr>";
-            echo '<td align="center">' . $row['carnum'] . "</td>";
-            echo '<td align="center">' . $row['model'] . "</td>";;
-            echo '<td align="center">' . $row['fload'] . "</td>";
-            echo '<td align="center">' . $row['pdtime'] . "</td>";
-            echo "</tr>";
-        }
-    }
-}
-?>
-        </tbody>
-
-        </table>
-
-
-
-    <br>
-    <h2 align="center">记录列表</h2>
+    <h2 align="center">称重记录</h2>
     <nav class="float-right">
         <div class="pure-menu pure-menu-open pure-menu-horizontal">
             <ul>
@@ -117,7 +89,8 @@ if(!empty($dcarnum)) {
             </ul>
         </div>
     </nav>
-    <table class="pure-table pure-table-bordered">
+    <div class="pure-skin-shenya">
+    <table class="pure-table pure-table-bordered pure-table-striped">
         <thead>
         <tr>
             <th>记录号</th>
@@ -131,7 +104,7 @@ if(!empty($dcarnum)) {
         </thead>
         <tbody>
         <?php
-        $queryitem = mysql_query("Select * from manage Where carnum='$dcarnum' order by manage_id desc");
+        $queryitem = mysql_query("Select * from manage Where carnum='$car_id' order by manage_id desc");
         while($row = mysql_fetch_array($queryitem))
         {
             echo "<tr>";
@@ -147,6 +120,7 @@ if(!empty($dcarnum)) {
         ?>
         </tbody>
     </table>
+        </div>
     <p align="center"><?php $timestamp = date('Y-m-d G:i:s'); echo $timestamp; ?></p>
     <?php
     include "footer.php";

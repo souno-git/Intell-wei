@@ -52,7 +52,8 @@ $user = $_SESSION['user']; //读取用户
             </ul>
         </div>
     </nav>
-    <table class="pure-table pure-table-bordered">
+    <div class="pure-skin-shenya">
+    <table class="pure-table pure-table-bordered pure-table-striped">
         <thead>
         <tr>
             <th>账号</th>
@@ -81,6 +82,7 @@ $user = $_SESSION['user']; //读取用户
         ?>
         </tbody>
     </table>
+        </div>
     <?php
     include "footer.php";
     ?>

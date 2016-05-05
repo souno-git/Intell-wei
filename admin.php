@@ -12,7 +12,7 @@ else{
 $user = $_SESSION['user']; //读取用户
 ?>
 <body>
-<div class="container">
+<div class="container" >
     <header>
         <div class="logo" >贵阳学院汽车衡智能称重系统</div>
         <nav class="float-right">
@@ -46,7 +46,8 @@ $user = $_SESSION['user']; //读取用户
             </ul>
         </div>
     </nav>
-    <table class="pure-table pure-table-bordered">
+    <div class="pure-skin-shenya">
+    <table class="pure-table pure-table-bordered pure-table-striped">
         <thead>
         <tr>
             <th>记录号</th>
@@ -82,6 +83,7 @@ $user = $_SESSION['user']; //读取用户
         ?>
         </tbody>
     </table>
+        </div>
     <?php
     include "footer.php";
     ?>

@@ -30,7 +30,8 @@ include "head.php";
         </nav>
     </header>
     <h2 align="center">当前统计信息</h2>
-    <table class="pure-table pure-table-bordered">
+    <div class="pure-skin-shenya">
+    <table class="pure-table pure-table-bordered ">
         <thead>
         <tr>
             <th>记录数</th>
@@ -57,7 +58,7 @@ include "head.php";
         </tbody>
     </table>
     <h2 align="center">当前称重信息</h2>
-    <table class="pure-table pure-table-bordered">
+    <table class="pure-table pure-table-bordered pure-table-striped">
         <thead>
         <tr>
             <th>记录号</th>
@@ -88,6 +89,7 @@ include "head.php";
         ?>
         </tbody>
     </table>
+        </div>
     <p align="center"><?php $timestamp = date('Y-m-d G:i:s'); echo $timestamp; ?></p>
 <?php
     include "footer.php";

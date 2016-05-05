@@ -31,6 +31,7 @@ $duser = $_SESSION['duser']; //assigns user value
         </nav>
     </header>
     <h2 align="center">个人信息修改</h2>
+    <div class="pure-skin-shenya">
     <table class="pure-table pure-table-bordered">
         <thead>
         <tr>
@@ -82,6 +83,7 @@ $duser = $_SESSION['duser']; //assigns user value
         ?>
         </tbody>
     </table>
+        </div>
     <?php
     $carnum_query=mysql_query("SELECT carnum FROM car") or die ("Error Occurred");
     ?>
