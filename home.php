@@ -75,7 +75,7 @@ $duser = $_SESSION['duser']; //读取用户
                 echo "</tr>";
                 }
         }
-            echo '<th align="center" colspan="4"> <a href="edit_home.php?id=' . $row['driver_id'] . '"> 修改 </a></th>';
+            echo '<td colspan="4"><p align="center"><a href="edit_home.php?id=' . $row['driver_id'] . '"> 修改 </a></p></td>';
         }
         ?>
     </table>
