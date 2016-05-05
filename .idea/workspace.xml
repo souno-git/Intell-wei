@@ -171,21 +171,19 @@
       <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
+            <state relative-caret-position="334">
+              <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
               <folding>
-                <marker date="1462421419436" expanded="true" signature="1063:1105" placeholder="Select * fro... driver" />
-                <marker date="1462421419436" expanded="true" signature="1669:1859" placeholder="..." />
-                <marker date="1462421419436" expanded="true" signature="1888:2081" placeholder="..." />
-                <marker date="1462421419436" expanded="true" signature="2110:2195" placeholder="..." />
-                <marker date="1462421419436" expanded="true" signature="2297:2337" placeholder="Select * fro... car" />
-                <marker date="1462421419436" expanded="true" signature="2470:2582" placeholder="..." />
-                <marker date="1462421419436" expanded="true" signature="2611:2808" placeholder="..." />
-                <marker date="1462421419436" expanded="true" signature="2884:2912" placeholder="..." />
-                <marker date="1462421419436" expanded="true" signature="2937:2948" placeholder="..." />
-                <marker date="1462421419436" expanded="true" signature="3676:3724" placeholder="..." />
-                <marker date="1462421419436" expanded="true" signature="3726:3793" placeholder="Select * fro... manage" />
-                <marker date="1462421419436" expanded="true" signature="3880:3900" placeholder="..." />
+                <marker date="1462425513608" expanded="true" signature="1063:1105" placeholder="Select * fro... driver" />
+                <marker date="1462425513608" expanded="true" signature="1669:1859" placeholder="..." />
+                <marker date="1462425513608" expanded="true" signature="1888:2081" placeholder="..." />
+                <marker date="1462425513608" expanded="true" signature="2110:2195" placeholder="..." />
+                <marker date="1462425513608" expanded="true" signature="2297:2337" placeholder="Select * fro... car" />
+                <marker date="1462425513608" expanded="true" signature="2470:2582" placeholder="..." />
+                <marker date="1462425513608" expanded="true" signature="2611:2808" placeholder="..." />
+                <marker date="1462425513608" expanded="true" signature="3620:3668" placeholder="..." />
+                <marker date="1462425513608" expanded="true" signature="3670:3737" placeholder="Select * fro... manage" />
+                <marker date="1462425513608" expanded="true" signature="3824:3844" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -302,8 +300,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="183" />
-    <option name="y" value="58" />
+    <option name="x" value="47" />
+    <option name="y" value="38" />
     <option name="width" value="1236" />
     <option name="height" value="703" />
   </component>
@@ -541,7 +539,7 @@
       <workItem from="1462015957431" duration="1407000" />
       <workItem from="1462269687451" duration="8823000" />
       <workItem from="1462331325741" duration="38000" />
-      <workItem from="1462409236500" duration="12013000" />
+      <workItem from="1462409236500" duration="12944000" />
     </task>
     <task id="LOCAL-00001" summary="2014-04-04&#10;">
       <created>1459763660044</created>
@@ -802,11 +800,18 @@
       <option name="project" value="LOCAL" />
       <updated>1462419913308</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="界面配色优化和司机主页优化！">
+      <created>1462421541612</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1462421541612</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154872000" />
+    <option name="totallyTimeSpent" value="155803000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -818,7 +823,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="183" y="58" width="1236" height="703" extended-state="0" />
+    <frame x="47" y="38" width="1236" height="703" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19411765" sideWeight="0.4924406" order="0" side_tool="false" content_ui="combo" />
@@ -1298,21 +1303,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
+        <state relative-caret-position="334">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
           <folding>
-            <marker date="1462421419436" expanded="true" signature="1063:1105" placeholder="Select * fro... driver" />
-            <marker date="1462421419436" expanded="true" signature="1669:1859" placeholder="..." />
-            <marker date="1462421419436" expanded="true" signature="1888:2081" placeholder="..." />
-            <marker date="1462421419436" expanded="true" signature="2110:2195" placeholder="..." />
-            <marker date="1462421419436" expanded="true" signature="2297:2337" placeholder="Select * fro... car" />
-            <marker date="1462421419436" expanded="true" signature="2470:2582" placeholder="..." />
-            <marker date="1462421419436" expanded="true" signature="2611:2808" placeholder="..." />
-            <marker date="1462421419436" expanded="true" signature="2884:2912" placeholder="..." />
-            <marker date="1462421419436" expanded="true" signature="2937:2948" placeholder="..." />
-            <marker date="1462421419436" expanded="true" signature="3676:3724" placeholder="..." />
-            <marker date="1462421419436" expanded="true" signature="3726:3793" placeholder="Select * fro... manage" />
-            <marker date="1462421419436" expanded="true" signature="3880:3900" placeholder="..." />
+            <marker date="1462425513608" expanded="true" signature="1063:1105" placeholder="Select * fro... driver" />
+            <marker date="1462425513608" expanded="true" signature="1669:1859" placeholder="..." />
+            <marker date="1462425513608" expanded="true" signature="1888:2081" placeholder="..." />
+            <marker date="1462425513608" expanded="true" signature="2110:2195" placeholder="..." />
+            <marker date="1462425513608" expanded="true" signature="2297:2337" placeholder="Select * fro... car" />
+            <marker date="1462425513608" expanded="true" signature="2470:2582" placeholder="..." />
+            <marker date="1462425513608" expanded="true" signature="2611:2808" placeholder="..." />
+            <marker date="1462425513608" expanded="true" signature="3620:3668" placeholder="..." />
+            <marker date="1462425513608" expanded="true" signature="3670:3737" placeholder="Select * fro... manage" />
+            <marker date="1462425513608" expanded="true" signature="3824:3844" placeholder="..." />
           </folding>
         </state>
       </provider>
